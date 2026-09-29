@@ -1,0 +1,46 @@
+# Lädt Cover-Bilder und legt sie als Artefakt ab.
+#
+# Hintergrund: Claude-Sessions erreichen covers.openlibrary.org nicht, GitHub
+# Actions schon. Zum Rendern eines Posts in der Session holt dieser Workflow die
+# Cover, die Session lädt das Artefakt über die GitHub-API.
+#
+# Eingabe: eine URL pro Zeile.
+
+name: Fetch Covers
+
+on:
+  workflow_dispatch:
+    inputs:
+      urls:
+        description: 'Cover-URLs, durch Leerzeichen oder Zeilenumbruch getrennt'
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cover laden
+        env:
+          URLS: ${{ github.event.inputs.urls }}
+        run: |
+          mkdir covers
+          i=0
+          for u in $URLS; do
+            name=$(echo -n "$u" | sha1sum | cut -c1-16)
+            if curl -sSfL --retry 3 -o "covers/$name.jpg" "$u"; then
+              echo "$name $u" >> covers/index.txt
+              i=$((i+1))
+            else
+              echo "FEHLT $u" | tee -a covers/index.txt
+            fi
+          done
+          echo "$i Cover geladen" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: covers
+          path: covers
+          retention-days: 1

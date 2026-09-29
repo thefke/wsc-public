@@ -1,0 +1,35 @@
+# Erneuert den Instagram-Token, bevor er nach 60 Tagen abläuft, und schreibt
+# den neuen Token zurück ins Secret IG_ACCESS_TOKEN.
+#
+# Braucht das Secret GH_PAT: ein Fine-grained Personal Access Token nur für
+# dieses Repo mit der Berechtigung "Secrets: Read and write". Das Standard-Token
+# von GitHub Actions darf keine Secrets schreiben.
+
+name: Refresh Token
+
+on:
+  schedule:
+    - cron: '0 5 1,15 * *'   # am 1. und 15. des Monats, weit vor Ablauf
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Token erneuern und speichern
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          set -euo pipefail
+          res=$(curl -sS --fail-with-body -G "https://graph.instagram.com/refresh_access_token" \
+            --data-urlencode "grant_type=ig_refresh_token" \
+            --data-urlencode "access_token=$IG_ACCESS_TOKEN")
+          token=$(echo "$res" | python3 -c "import json,sys; print(json.load(sys.stdin)['access_token'])")
+          echo "::add-mask::$token"
+          days=$(echo "$res" | python3 -c "import json,sys; print(json.load(sys.stdin).get('expires_in',0)//86400)")
+          gh secret set IG_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" --body "$token"
+          echo "Token erneuert, gültig für weitere $days Tage" >> "$GITHUB_STEP_SUMMARY"

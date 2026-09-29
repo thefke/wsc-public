@@ -1,8 +1,9 @@
-# Lädt Cover-Bilder und legt sie als Artefakt ab.
+# Lädt Cover-Bilder auf den Branch cover-cache.
 #
 # Hintergrund: Claude-Sessions erreichen covers.openlibrary.org nicht, GitHub
 # Actions schon. Zum Rendern eines Posts in der Session holt dieser Workflow die
-# Cover, die Session lädt das Artefakt über die GitHub-API.
+# Cover und legt sie auf den Branch cover-cache. Die Session holt sie per git.
+# Der Branch wird bei jedem Lauf überschrieben und enthält nur die letzten Cover.
 #
 # Eingabe: eine URL pro Zeile.
 
@@ -16,7 +17,7 @@ on:
         required: true
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   fetch:
@@ -39,8 +40,11 @@ jobs:
           done
           echo "$i Cover geladen" >> "$GITHUB_STEP_SUMMARY"
 
-      - uses: actions/upload-artifact@v4
-        with:
-          name: covers
-          path: covers
-          retention-days: 1
+      - name: Auf cover-cache ablegen
+        run: |
+          cd covers
+          git init -q -b cover-cache
+          git config user.name "wsc-covers"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "Cover für einen Render-Lauf"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" cover-cache

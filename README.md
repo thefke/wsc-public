@@ -8,7 +8,7 @@ Das Repo ist öffentlich, weil Instagram die Bilder über eine öffentliche URL 
 
 - `queue/`: geplante Beiträge, je ein Ordner mit `image.jpg` und `post.json`.
 - `posted/`: veröffentlichte Beiträge, mit Media-ID und Zeitpunkt.
-- `plan/`: vorbereitete Posts zum Hochladen von Hand, je Tag ein Ordner mit Bildern und `caption.txt`. Wird nie automatisch gepostet.
+- `plan/`: vorbereitete Posts zum Hochladen von Hand, je Tag ein Ordner mit Bildern und `caption.txt`. Wird nie automatisch gepostet. Nach jeder Änderung `python3 tools/plan_index.py` laufen lassen, das schreibt `plan/index.json` für die Seite `why-so-curious.com/studio/posts/`.
 - Workflow `Publish`: läuft stündlich, postet den nächsten fälligen Beitrag und verschiebt ihn nach `posted/`. Höchstens ein Post pro Lauf.
 - Workflow `Refresh Token`: erneuert den Instagram-Token am 1. und 15. des Monats.
 

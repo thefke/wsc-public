@@ -1,4 +1,4 @@
-# Plan: 4. bis 17. Oktober
+# Plan: 4. bis 20. Oktober
 
 Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.txt` mit Hashtags. Die README im Ordner zeigt beides direkt in der GitHub-App.
 
@@ -18,6 +18,8 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Do 15.10. | [50 Sentences, 50 Books](2026-10-15-50-sentences/) | Karussell |
 | Fr 16.10. | [99 Problems, 99 Books](2026-10-16-99-problems-reel/) | Reel |
 | Sa 17.10. | [Reading Ladders, Part 2](2026-10-17-reading-ladders-2/) | Karussell |
+| So 18.10. | [Learn from the Greatest](2026-10-18-learn-from-the-greatest/) | Karussell |
+| Di 20.10. | [Learn from the Greatest](2026-10-20-learn-from-the-greatest-reel/) | Reel |
 
 Hinweise:
 - Karussells beim Hochladen auf 4:5 stellen.

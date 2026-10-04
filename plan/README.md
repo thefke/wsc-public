@@ -1,4 +1,4 @@
-# Plan: 4. bis 20. Oktober
+# Plan: 4. bis 31. Oktober
 
 Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.txt` mit Hashtags. Die README im Ordner zeigt beides direkt in der GitHub-App.
 
@@ -19,7 +19,19 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Fr 16.10. | [99 Problems, 99 Books](2026-10-16-99-problems-reel/) | Reel |
 | Sa 17.10. | [Reading Ladders, Part 2](2026-10-17-reading-ladders-2/) | Karussell |
 | So 18.10. | [Learn from the Greatest](2026-10-18-learn-from-the-greatest/) | Karussell |
+| Mo 19.10. | [Learn from the Greatest: Football](2026-10-19-greatest-football/) | Karussell |
 | Di 20.10. | [Learn from the Greatest](2026-10-20-learn-from-the-greatest-reel/) | Reel |
+| Mi 21.10. | [Learn from the Greatest: Tennis](2026-10-21-greatest-tennis/) | Karussell |
+| Do 22.10. | [50 Sentences, 50 Books, Part 2](2026-10-22-50-sentences-2/) | Karussell |
+| Fr 23.10. | [Learn from the Greatest: Football](2026-10-23-greatest-football-reel/) | Reel |
+| Sa 24.10. | [Learn from the Greatest: Running](2026-10-24-greatest-running/) | Karussell |
+| So 25.10. | [Learn from the Greatest: Founders](2026-10-25-greatest-founders/) | Karussell |
+| Mo 26.10. | [Before You Start a Company](2026-10-26-before-you-start-a-company/) | Karussell |
+| Di 27.10. | [Learn from the Greatest: Tennis](2026-10-27-greatest-tennis-reel/) | Reel |
+| Mi 28.10. | [Learn from the Greatest: Cycling](2026-10-28-greatest-cycling/) | Karussell |
+| Do 29.10. | [10 Books in 10 Words, Part 2](2026-10-29-10-books-10-words-2/) | Karussell |
+| Fr 30.10. | [Learn from the Greatest: Founders](2026-10-30-greatest-founders-reel/) | Reel |
+| Sa 31.10. | [Before You Start a Company](2026-10-31-before-you-start-a-company-reel/) | Reel |
 
 Hinweise:
 - Karussells beim Hochladen auf 4:5 stellen.

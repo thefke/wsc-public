@@ -5,7 +5,7 @@ Karussell, 6 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Phil Knight. Warren Buffett. Viola Davis. Dave Grohl.
+Phil Knight. Roger Federer. Viola Davis. Dave Grohl.
 
 24 of the greatest in business, sport, film and music.
 One lesson from each of their stories.

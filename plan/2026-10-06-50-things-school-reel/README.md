@@ -19,3 +19,9 @@ Which one did you need first?
 ## Reel
 
 [reel.mp4](reel.mp4)
+
+## Titelbild
+
+Nachträglich: Im Reel auf Bearbeiten, dann Titelbild bearbeiten und `reel_cover.jpg` aus den Fotos wählen.
+
+![Titelbild](reel_cover.jpg)

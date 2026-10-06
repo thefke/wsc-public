@@ -35,6 +35,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 
 Hinweise:
 - Karussells beim Hochladen auf 4:5 stellen.
+- Reels: Beim Hochladen unter Titelbild bearbeiten `reel_cover.jpg` aus den Fotos wählen. Sonst nimmt Instagram den ersten Frame.
 - Reels haben keinen Ton. Sound in der App wählen, ein Track mit 80 oder 120 BPM trifft die Schnitte alle 1,5 Sekunden.
 - Die Reels verweisen auf das Karussell im Profil. Das Karussell geht deshalb immer vor dem Reel raus.
 - Das 99-Problems-Reel setzt voraus, dass das 99-Problems-Karussell schon online ist.

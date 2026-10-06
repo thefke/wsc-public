@@ -1,6 +1,6 @@
 # Fr 09.10. · 30 Excuses, 30 Books
 
-Reel, 9:16, 23 Sekunden, ohne Ton. Sound in der App wählen.
+Reel, 9:16, 23 Sekunden, ohne Ton. Sound in der App wählen. Als Titelbild `reel_cover.jpg` aus den Fotos wählen.
 
 ## Caption
 
@@ -19,3 +19,7 @@ Which one do you use?
 ## Reel
 
 [reel.mp4](reel.mp4)
+
+## Titelbild
+
+![Titelbild](reel_cover.jpg)

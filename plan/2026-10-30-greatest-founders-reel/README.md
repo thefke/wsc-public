@@ -1,6 +1,6 @@
 # Fr 30.10. · Learn from the Greatest: Founders
 
-Reel, 9:16, 23 Sekunden, ohne Ton. Sound in der App wählen.
+Reel, 9:16, 23 Sekunden, ohne Ton. Sound in der App wählen. Als Titelbild `reel_cover.jpg` aus den Fotos wählen.
 
 ## Caption
 
@@ -18,3 +18,7 @@ Whose lesson do you need?
 ## Reel
 
 [reel.mp4](reel.mp4)
+
+## Titelbild
+
+![Titelbild](reel_cover.jpg)

@@ -1,0 +1,35 @@
+# Mi 04.11. · New Job? 20 Problems, 20 Books
+
+Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+
+## Caption
+
+```
+New job.
+New names, new tools, new boss.
+
+20 problems from the first 90 days.
+Nobody mentions them in the interview.
+One book for each.
+
+10 for the first weeks.
+10 for the first months.
+
+Adam Grant in Think Again:
+“Some surveys suggest that more than half the people you know have felt like impostors at some point in their careers.”
+
+So if week one felt like a bluff, you're in good company.
+
+Save it. Send it to someone who just started.
+
+Which number is you right now?
+
+#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+```
+
+## Slides
+
+![01.jpg](01.jpg)
+![02.jpg](02.jpg)
+![03.jpg](03.jpg)
+![04.jpg](04.jpg)

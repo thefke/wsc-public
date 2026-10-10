@@ -66,7 +66,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mi 02.12. | [The night before a big decision. Read one first](2026-12-02-night-before-decision/) | Karussell |
 | Do 03.12. | [Pick a Number from 1 to 9](2026-12-03-pick-a-number/) | Karussell |
 | Fr 04.12. | [Books that shaped how I lead](2026-12-04-shaped-me-as-leader/) | Karussell |
-| Sa 05.12. | [Learn from the greatest: Music & Film](2026-12-05-greatest-music-film/) | Karussell |
+| Sa 05.12. | [One book for every person on your list](2026-12-05-gift-guide/) | Karussell |
 | So 06.12. | [Going Solo? 20 Problems](2026-12-06-going-solo/) | Karussell |
 | Mo 07.12. | [Books that make you quit something](2026-12-07-make-you-quit/) | Karussell |
 | Di 08.12. | [Books for the scarcest thing you have: time](2026-12-08-time-scarcest-asset/) | Karussell |
@@ -80,7 +80,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mi 16.12. | [For people who start and never finish](2026-12-16-start-never-finish/) | Karussell |
 | Do 17.12. | [Books for ambitious people](2026-12-17-ambitious-people/) | Karussell |
 | Fr 18.12. | [Reading Ladders, Part 3](2026-12-18-reading-ladders-3/) | Karussell |
-| Sa 19.12. | [One book for every person on your list](2026-12-19-gift-guide/) | Karussell |
+| Sa 19.12. | [Learn from the greatest: Music & Film](2026-12-19-greatest-music-film/) | Karussell |
 | So 20.12. | [Books that changed how I see the world](2026-12-20-changed-my-worldview/) | Karussell |
 | Mo 21.12. | [Your 2027 Reading Plan](2026-12-21-reading-plan-2027/) | Karussell |
 | Di 22.12. | [The last days of the year. Look back first](2026-12-22-end-of-year-reflection/) | Karussell |

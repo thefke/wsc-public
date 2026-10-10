@@ -12,6 +12,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Fr 09.10. | [30 Excuses, 30 Books](2026-10-09-30-excuses-reel/) | Reel |
 | Sa 10.10. | [10 Athletes, 10 Lessons](2026-10-10-athlete-minds/) | Karussell |
 | So 11.10. | [50 More Things School Never Taught You](2026-10-11-50-more-things-school/) | Karussell |
+| So 11.10. | [Tell me your problem. My shelf has the book.](2026-10-11-shelf-answer-reel/) | Reel |
 | Mo 12.10. | [Books I'd give my 25-year-old self](2026-10-12-books-for-25-year-old-me/) | Karussell |
 | Di 13.10. | [30 More Excuses, 30 More Books](2026-10-13-30-more-excuses/) | Karussell |
 | Mi 14.10. | [What to read on a 10-hour flight](2026-10-14-ten-hour-flight/) | Karussell |

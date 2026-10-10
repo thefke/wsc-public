@@ -1,0 +1,56 @@
+# Lädt Videos aus Google Drive auf den Branch media-cache.
+#
+# Hintergrund: Claude-Sessions erreichen Google Drive nicht direkt, GitHub
+# Actions schon. Die Datei muss in Drive per Link freigegeben sein ("Jeder mit
+# dem Link"). Der Workflow lädt sie, verkleinert sie auf 1080 px Breite und legt
+# sie auf den Branch media-cache. Die Session holt sie per git. Der Branch wird
+# bei jedem Lauf überschrieben. Danach die Freigabe in Drive wieder aufheben.
+#
+# Eingabe: Drive-Datei-IDs, durch Leerzeichen getrennt.
+
+name: Fetch Media
+
+on:
+  workflow_dispatch:
+    inputs:
+      ids:
+        description: 'Drive-Datei-IDs, durch Leerzeichen getrennt'
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Werkzeuge
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q gdown
+
+      - name: Laden und verkleinern
+        env:
+          IDS: ${{ github.event.inputs.ids }}
+        run: |
+          mkdir media raw
+          for id in $IDS; do
+            if gdown -q --fuzzy "https://drive.google.com/uc?id=$id" -O "raw/$id"; then
+              ffmpeg -loglevel error -y -i "raw/$id" -vf "scale='min(1080,iw)':-2" \
+                -c:v libx264 -crf 26 -preset medium -c:a aac -b:a 128k -movflags +faststart "media/$id.mp4"
+              echo "$id $(du -h media/$id.mp4 | cut -f1)" >> media/index.txt
+            else
+              echo "FEHLT $id (Freigabe per Link?)" | tee -a media/index.txt
+            fi
+          done
+          cat media/index.txt >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Auf media-cache ablegen
+        run: |
+          cd media
+          git init -q -b media-cache
+          git config user.name "wsc-media"
+          git config user.email "actions@users.noreply.github.com"
+          git add -A && git commit -qm "Videos für einen Schnitt"
+          git push -qf "https://x-access-token:${{ github.token }}@github.com/${{ github.repository }}.git" media-cache

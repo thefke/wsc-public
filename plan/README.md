@@ -101,4 +101,5 @@ Hinweise:
 - Ab 11.10. gemischt: Nummern-Posts und Winkel-Posts im Wechsel, gleiche Reihen mit Abstand. Auswertung nach 4 Wochen, am 08.11.
 - Ab 14.10. jeden dritten Tag ein Einzelbild (Kassenbon, Klebezettel, Konfigurator), 9 Stück bis 07.11. Der Rest rückt nach, Jahresende-Posts jetzt 30.12. bis 01.01.
 - Seit 10.10. keine Reels mehr. Das Reel vom 06.10. kam auf 886 Aufrufe, die Karussells davor auf 7.345 und 9.219.
+- Hook-Test ab 22.10.: Slide 1 spricht das Problem an, statt den Inhalt anzukündigen. 22.10. POV, 24.10. „If you…“, 25.10. Leser-Zitat. Vergleich mit den Posts davor bei der Auswertung am 08.11.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

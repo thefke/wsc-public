@@ -5,8 +5,8 @@ Karussell, 5 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-12 lies about money.
-Most of us grew up with a few of them.
+“I'm just bad with money.” Most of us have said it.
+Usually it's a lie you picked up early, like these:
 
 “Save whatever is left over.”
 “Rich people drive nice cars.”

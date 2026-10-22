@@ -5,6 +5,9 @@ Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
+Typed it. Deleted it. Typed it again.
+Some talks don't fit in a text.
+
 20 conversations we keep putting off.
 
 Asking for a raise.

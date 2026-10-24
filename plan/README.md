@@ -27,7 +27,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Fr 23.10. | [Books for your first paycheck](2026-10-23-first-paycheck-single/) | Einzelbild |
 | Sa 24.10. | [Books for overthinkers](2026-10-24-overthinkers/) | Karussell |
 | So 25.10. | [12 Money Lies You Believe](2026-10-25-12-money-lies/) | Karussell |
-| Mo 26.10. | [Pick your growth problem](2026-10-26-growth-problem-single/) | Einzelbild |
+| Mo 26.10. | [20 Money Excuses, 20 Books](2026-10-26-money-excuses/) | Karussell |
 | Di 27.10. | [Advice that sounds smart. And isn't](2026-10-27-advice-that-sounds-smart/) | Karussell |
 | Mi 28.10. | [22 AI Problems](2026-10-28-22-ai-problems/) | Karussell |
 | Do 29.10. | [Books for busy people](2026-10-29-busy-people-single/) | Einzelbild |
@@ -36,7 +36,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 01.11. | [Books for your 40s](2026-11-01-40s-single/) | Einzelbild |
 | Mo 02.11. | [Books that sound boring. They aren't](2026-11-02-sound-boring-arent/) | Karussell |
 | Di 03.11. | [10 Bad Days, 10 Books](2026-11-03-10-bad-days/) | Karussell |
-| Mi 04.11. | [Pick your team problem](2026-11-04-team-problem-single/) | Einzelbild |
+| Mi 04.11. | [Money School Never Taught You](2026-11-04-money-school-never-taught/) | Karussell |
 | Do 05.11. | [One idea worth the whole book](2026-11-05-one-idea-whole-book/) | Karussell |
 | Fr 06.11. | [Afraid to Ask? 20 Questions](2026-11-06-afraid-to-ask/) | Karussell |
 | Sa 07.11. | [Books for career changers](2026-11-07-career-changers-single/) | Einzelbild |
@@ -102,4 +102,5 @@ Hinweise:
 - Ab 14.10. jeden dritten Tag ein Einzelbild (Kassenbon, Klebezettel, Konfigurator), 9 Stück bis 07.11. Der Rest rückt nach, Jahresende-Posts jetzt 30.12. bis 01.01.
 - Seit 10.10. keine Reels mehr. Das Reel vom 06.10. kam auf 886 Aufrufe, die Karussells davor auf 7.345 und 9.219.
 - Hook-Test ab 22.10.: Slide 1 spricht das Problem an, statt den Inhalt anzukündigen. 22.10. POV, 24.10. „If you…“, 25.10. Leser-Zitat. Vergleich mit den Posts davor bei der Auswertung am 08.11.
+- Ab 26.10. zwei Money-Posts statt der Klebezettel (die bekamen 2 Shares). Gebaut für Shares an einen bestimmten Freund, Outro „Send this to…“.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

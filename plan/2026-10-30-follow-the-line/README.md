@@ -2,6 +2,8 @@
 
 Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 
+Abend-Slot 19 bis 20 Uhr MESZ, Format-Test.
+
 ## Caption
 
 ```

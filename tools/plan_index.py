@@ -24,7 +24,7 @@ def main():
             'date': d.name[:10],
             'folder': d.name,
             'title': title,
-            'format': 'reel' if any(m.endswith('.mp4') for m in media) else 'carousel',
+            'format': 'reel' if 'reel.mp4' in media else 'carousel',
             'media': media,
             'caption': (d / 'caption.txt').read_text(encoding='utf-8').strip(),
         })

@@ -5,8 +5,8 @@ Karussell, 12 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-10 bad days.
-10 books.
+One of those days.
+You know the kind.
 
 Fired. Dumped. Burned out. Broke.
 Rejected. Grieving.

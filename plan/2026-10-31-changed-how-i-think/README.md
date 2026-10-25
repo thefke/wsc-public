@@ -5,7 +5,7 @@ Karussell, 10 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Some books give you facts.
+Your research keeps proving you right.
 These eight ask better questions.
 
 Where are my blind spots?
@@ -13,6 +13,8 @@ What would make me change my mind?
 Who gains if I believe this?
 
 All eight from my shelf.
+
+Send this to the friend who has done their research.
 
 Which book changed your mind on something?
 

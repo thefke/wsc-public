@@ -5,8 +5,8 @@ Karussell, 10 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Some books are 300 pages.
-You remember one sentence.
+“Great book. Can't remember a thing.”
+300 pages later, one sentence stuck.
 
 That sentence is often worth the price.
 
@@ -16,6 +16,7 @@ Hire to buy back your time.
 
 All from my shelf.
 
+Send this to the friend who forgets every book.
 Which idea stuck with you?
 
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious

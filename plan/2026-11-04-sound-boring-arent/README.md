@@ -5,7 +5,7 @@ Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Shipping containers. Microchips. Map software.
+“Nonfiction is boring.”
 Seven titles that look like homework.
 
 Open them and you get spies, billionaires and a Nobel laureate who is funny.
@@ -16,6 +16,8 @@ The startup behind Google Earth ran out of cash in 2002.
 The CIA's venture arm helped bring it back.
 
 All from my shelf.
+
+Send this to the friend who says nonfiction is boring.
 
 Which one would you have skipped?
 

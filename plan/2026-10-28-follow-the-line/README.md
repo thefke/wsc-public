@@ -1,4 +1,4 @@
-# Fr 30.10. · Pick your problem. Follow the line.
+# Mi 28.10. · Pick your problem. Follow the line.
 
 Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 

@@ -1,4 +1,4 @@
-# Fr 06.11. · Books for career changers
+# Mi 04.11. · Books for career changers
 
 Einzelbild, 4:5. Format-Test, Auswertung am 08.11.
 

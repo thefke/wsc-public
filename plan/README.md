@@ -27,26 +27,26 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Fr 23.10. | [Books for your first paycheck](2026-10-23-first-paycheck-single/) | Einzelbild |
 | Sa 24.10. | [Books for overthinkers](2026-10-24-overthinkers/) | Karussell |
 | So 25.10. | [12 Money Lies You Believe](2026-10-25-12-money-lies/) | Karussell |
+| So 25.10. | [Break Travel: you probably just needed a break](2026-10-25-break-travel/) | Karussell, Video, abends |
 | Mo 26.10. | [20 Money Excuses, 20 Books](2026-10-26-money-excuses/) | Karussell |
 | Di 27.10. | [Advice that sounds smart. And isn't](2026-10-27-advice-that-sounds-smart/) | Karussell |
 | Mi 28.10. | [22 AI Problems](2026-10-28-22-ai-problems/) | Karussell |
-| Mi 28.10. | [Break Travel: you probably just needed a break](2026-10-28-break-travel/) | Karussell, Video, abends |
+| Mi 28.10. | [Pick your problem. Follow the line.](2026-10-28-follow-the-line/) | Karussell, abends |
 | Do 29.10. | [Books that changed how I think](2026-10-29-changed-how-i-think/) | Karussell |
 | Fr 30.10. | [New Boss: 20 Problems](2026-10-30-first-time-boss/) | Karussell |
-| Fr 30.10. | [Pick your problem. Follow the line.](2026-10-30-follow-the-line/) | Karussell, abends |
+| Fr 30.10. | [Guess the book](2026-10-30-guess-shoe-dog/) | Karussell, abends |
 | Sa 31.10. | [Books that sound boring. They aren't](2026-10-31-sound-boring-arent/) | Karussell |
 | So 01.11. | [10 Bad Days, 10 Books](2026-11-01-10-bad-days/) | Karussell |
-| Mo 02.11. | [Guess the book](2026-11-02-guess-shoe-dog/) | Karussell, abends |
+| Mo 02.11. | [Books for busy people](2026-11-02-busy-people-single/) | Einzelbild, abends |
 | Mo 02.11. | [Money School Never Taught You](2026-11-02-money-school-never-taught/) | Karussell |
 | Di 03.11. | [One idea worth the whole book](2026-11-03-one-idea-whole-book/) | Karussell |
 | Mi 04.11. | [Afraid to Ask? 20 Questions](2026-11-04-afraid-to-ask/) | Karussell |
-| Mi 04.11. | [Books for busy people](2026-11-04-busy-people-single/) | Einzelbild, abends |
+| Mi 04.11. | [Books for career changers](2026-11-04-career-changers-single/) | Einzelbild, abends |
 | Do 05.11. | [Books that make you quit something](2026-11-05-make-you-quit/) | Karussell |
-| Fr 06.11. | [Books for career changers](2026-11-06-career-changers-single/) | Einzelbild, abends |
+| Fr 06.11. | [Books for your 40s](2026-11-06-40s-single/) | Einzelbild, abends |
 | Fr 06.11. | [New Job? 20 Problems, 20 Books](2026-11-06-new-job-90-days/) | Karussell |
 | Sa 07.11. | [The books I recommend to everyone](2026-11-07-recommend-to-everyone/) | Karussell |
 | So 08.11. | [30 Lessons Before 30](2026-11-08-30-before-30/) | Karussell |
-| Mo 09.11. | [Books for your 40s](2026-11-09-40s-single/) | Einzelbild, abends |
 | Mo 09.11. | [Biographies that read like thrillers](2026-11-09-read-like-thrillers/) | Karussell |
 | Di 10.11. | [How They Really Work: 20 Companies](2026-11-10-inside-the-companies/) | Karussell |
 | Mi 11.11. | [Leading without a title](2026-11-11-lead-without-title/) | Karussell |
@@ -107,5 +107,5 @@ Hinweise:
 - Hook-Test ab 22.10.: Slide 1 spricht das Problem an, statt den Inhalt anzukündigen. 22.10. POV, 24.10. „If you…“, 25.10. Leser-Zitat. Vergleich mit den Posts davor bei der Auswertung am 08.11.
 - Ab 26.10. zwei Money-Posts statt der Klebezettel (die bekamen 2 Shares). Gebaut für Shares an einen bestimmten Freund, Outro „Send this to…“.
 - Neue Mitmach-Formate: 30.10. Follow the Line, 01.11. Guess the Book (Serie, jede Woche ein Cover). Problem-Hooks und „Send this to…“ im Outro für alle Karussells bis 08.11.
-- Ab 28.10. zwei Slots: tagsüber 15 bis 16 Uhr MESZ das Karussell als Basis, Mo, Mi und Fr 19 bis 20 Uhr ein Format-Test (Video-Karussell, Mitmach-Formate, Einzelbilder, ab 11.11. Formate aus dem Hotel-Dreh). Ziel: bis Jahresende je Format 4 bis 6 Datenpunkte.
+- Ab 25.10. zwei Slots: tagsüber 15 bis 16 Uhr MESZ das Karussell als Basis, Mo, Mi und Fr 19 bis 20 Uhr ein Format-Test (Video-Karussell, Mitmach-Formate, Einzelbilder, ab 11.11. Formate aus dem Hotel-Dreh). Ziel: bis Jahresende je Format 4 bis 6 Datenpunkte.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

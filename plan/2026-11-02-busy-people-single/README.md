@@ -1,4 +1,4 @@
-# Mi 04.11. · Books for busy people
+# Mo 02.11. · Books for busy people
 
 Einzelbild, 4:5. Format-Test, Auswertung am 08.11.
 

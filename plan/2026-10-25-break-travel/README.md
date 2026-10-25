@@ -1,4 +1,4 @@
-# Mi 28.10. · Break Travel: you probably just needed a break
+# So 25.10. · Break Travel: you probably just needed a break
 
 Karussell mit Video-Slides, 6 Slides. Beim Hochladen 4:5 wählen.
 

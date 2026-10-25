@@ -1,4 +1,4 @@
-# Mo 02.11. · Guess the book
+# Fr 30.10. · Guess the book
 
 Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 

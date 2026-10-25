@@ -1,4 +1,4 @@
-# Mo 09.11. · Books for your 40s
+# Fr 06.11. · Books for your 40s
 
 Einzelbild, 4:5. Format-Test, Auswertung am 08.11.
 

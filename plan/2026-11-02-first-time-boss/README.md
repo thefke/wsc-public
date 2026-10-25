@@ -5,8 +5,8 @@ Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-You got promoted for being great at your old job.
-Now that job is gone.
+“I'll just do it myself.”
+You said it again this week.
 
 20 problems every new boss runs into.
 20 books that help.

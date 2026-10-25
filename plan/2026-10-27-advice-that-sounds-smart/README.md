@@ -5,8 +5,8 @@ Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Follow your passion.
-Let your work speak for itself.
+You did what everyone told you.
+Follow your passion. Let your work speak for itself.
 Winners never quit.
 
 Sounds smart.
@@ -14,6 +14,8 @@ Gets repeated everywhere.
 
 These books take it apart.
 And say what to do instead.
+
+Send this to the friend who still quotes one of them.
 
 Which one did you believe the longest?
 

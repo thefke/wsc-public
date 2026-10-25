@@ -5,8 +5,8 @@ Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-Some books teach you something new.
-These make you stop something.
+“One more year, then I quit.”
+You said that last year too.
 
 A job you can't justify.
 A habit that keeps winning.
@@ -15,6 +15,7 @@ Your phone, for 30 days.
 
 Annie Duke says quitting on time feels like quitting too early.
 
+Send this to the friend who's in year four.
 What would you quit first?
 
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious

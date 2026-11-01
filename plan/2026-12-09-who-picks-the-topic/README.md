@@ -1,0 +1,52 @@
+# Mi 09.12. · Your posts keep getting shorter, sharper, louder?
+
+Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
+
+Abend-Slot 19 bis 20 Uhr MEZ, Format-Test Story-Karussell: Text-Slides statt Bücherraster, mittwochs bis 23.12. Mo und Fr bleiben für die Formate aus dem Hotel-Dreh.
+
+Quelle: `thomas-hefke-os/knowledge/06-content/posts/`, gebaut mit `wsc-web/tools/social/story.mjs`.
+
+## Caption
+
+```
+Philosopher Thi Nguyen’s tweets that racked up the likes had to be short.
+And sharp.
+And context free. 🐦
+
+Michael Easter tells it in Scarcity Brain.
+He also describes a study of politicians on Twitter.
+After a mean tweet got a rush of likes and retweets, their next tweets were more likely to get meaner.
+
+The move:
+Pick your next topic from your own list.
+What you’re reading, building or trying.
+Check the stats after you post.
+
+Shtick to Business puts it in order.
+Write what you love first.
+Then test it with your audience.
+Doesn’t land? Change it.
+Still doesn’t land? Cut it.
+
+A comedian in the same book does the math.
+1 in 10 jokes reaches the stage.
+1 in 10 of those makes the act. 🎤
+
+Three more authors in the slides: Chase Jarvis, Brad Stulberg and Steve Magness, Austin Kleon.
+
+Send this to the friend who checks their stats mid-sentence.
+
+Your last post: who picked the topic, you or the numbers?
+One word. 👇
+```
+
+## Slides
+
+![01.jpg](01.jpg)
+![02.jpg](02.jpg)
+![03.jpg](03.jpg)
+![04.jpg](04.jpg)
+![05.jpg](05.jpg)
+![06.jpg](06.jpg)
+![07.jpg](07.jpg)
+![08.jpg](08.jpg)

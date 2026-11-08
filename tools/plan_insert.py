@@ -1,4 +1,4 @@
-"""Neue Posts in den Plan einfügen, alles Nicht-Fixierte rückt nach. Aufruf aus dem Repo-Root: python3 tools/plan_insert.py spec.json [--apply]. Ohne --apply nur Bericht. Braucht Pillow. Danach tools/plan_index.py laufen lassen.
+"""Neue Posts in den Plan einfügen, alles Nicht-Fixierte rückt nach. Aufruf aus dem Repo-Root: python3 tools/plan_insert.py spec.json [--apply]. Ohne --apply nur Bericht. Braucht Pillow, bei kaputtem System-Pillow ein venv im Scratchpad nehmen. Danach tools/plan_index.py laufen lassen.
 spec: [{"date":"2026-10-30","slug":"follow-the-line","title":"...","src":"/pfad/zum/out","caption":"/pfad/cap.md"}]"""
 import json, re, sys, shutil, subprocess, datetime as dt
 from pathlib import Path

@@ -1,19 +1,20 @@
 # Sa 07.11. · The books I recommend to everyone
 
-Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
+Karussell, 11 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 
 ```
 Someone asks what to read next.
-These seven are my answer.
+These nine are my answer.
 
 Habits.
 Time.
+People.
+Grit.
 Sleep.
-Listening.
 
-All seven from my shelf.
+All nine from my shelf.
 
 Which book do you recommend to everyone?
 
@@ -31,3 +32,5 @@ Which book do you recommend to everyone?
 ![07.jpg](07.jpg)
 ![08.jpg](08.jpg)
 ![09.jpg](09.jpg)
+![10.jpg](10.jpg)
+![11.jpg](11.jpg)

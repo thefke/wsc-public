@@ -13,6 +13,8 @@ Barty walked away at the top.
 
 Whose lesson do you need?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

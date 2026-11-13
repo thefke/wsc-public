@@ -17,6 +17,8 @@ All eight from my shelf.
 
 Which book taught you the most about leading?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

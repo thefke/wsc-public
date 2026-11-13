@@ -18,6 +18,8 @@ Save it for the next week that runs away from you.
 
 Which number is eating your time?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

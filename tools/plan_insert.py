@@ -1,9 +1,11 @@
 """Neue Posts in den Plan einfügen, alles Nicht-Fixierte rückt nach. Aufruf aus dem Repo-Root: python3 tools/plan_insert.py spec.json [--apply]. Ohne --apply nur Bericht. Braucht Pillow, bei kaputtem System-Pillow ein venv im Scratchpad nehmen. Danach tools/plan_index.py laufen lassen.
-spec: [{"date":"2026-10-30","slug":"follow-the-line","title":"...","src":"/pfad/zum/out","caption":"/pfad/cap.md"}]"""
+spec: [{"date":"2026-10-30","slug":"follow-the-line","title":"...","src":"/pfad/zum/out","caption":"/pfad/cap.md"}]
+Vor den Hashtags steht BIO: der Hinweis auf why-so-curious.com/en/ig/, dort stehen die Bücher jedes Posts. Posts ohne Bücher (Story-Karussells ohne Buch) tragen "bio": false."""
 import json, re, sys, shutil, subprocess, datetime as dt
 from pathlib import Path
 from PIL import Image
 P = Path(__file__).resolve().parent.parent / 'plan'; APPLY = '--apply' in sys.argv
+BIO = 'Books from this post: link in bio.'
 TAGS = '#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious'
 DOW = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
 PIN = {'gift-guide': '2026-12-05', 'reading-plan-2027': '2026-12-30', 'end-of-year-reflection': '2026-12-31', 'first-week-of-january': '2027-01-01'}
@@ -40,7 +42,7 @@ for d, k, x in plan:
                 elif f.suffix == '.png' and not (src / (f.stem + '.mp4')).exists():
                     Image.open(f).convert('RGB').save(tgt / (f.stem + '.jpg'), quality=90); media.append(f.stem + '.jpg')
             media.sort()
-            cap = Path(x['caption']).read_text().strip() + '\n\n' + TAGS + '\n'
+            cap = Path(x['caption']).read_text().strip() + ('\n\n' + BIO if x.get('bio', True) else '') + '\n\n' + TAGS + '\n'
             (tgt / 'caption.txt').write_text(cap)
             kind = 'Karussell mit Video-Slides' if any(m.endswith('.mp4') for m in media) else 'Karussell'
             (tgt / 'README.md').write_text(f"# {lab(d)} · {x['title']}\n\n{kind}, {len(media)} Slides. Beim Hochladen 4:5 wählen.\n\n## Caption\n\n```\n{cap}```\n\n## Slides\n\n" + ''.join(f'![{m}]({m})\n' if m.endswith('.jpg') else f'[{m}]({m})\n' for m in media))

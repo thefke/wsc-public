@@ -21,6 +21,8 @@ All from my shelf.
 
 Save it. Which month do you start?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

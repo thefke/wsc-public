@@ -19,6 +19,8 @@ Annie Duke in Quit:
 
 What's the project you never finished?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

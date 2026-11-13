@@ -21,6 +21,8 @@ Then take one real problem from your week and solve it with AI.
 
 Course or self-taught: what actually worked for you?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

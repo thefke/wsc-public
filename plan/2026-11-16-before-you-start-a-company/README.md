@@ -17,6 +17,8 @@ Save it. Send it to the friend who keeps talking about their idea.
 
 Which one hits closest?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

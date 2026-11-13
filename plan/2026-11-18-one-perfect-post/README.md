@@ -29,6 +29,8 @@ Send this to the friend still polishing one perfect post.
 
 How many drafts are waiting in your folder?
 Just the number. 👇
+
+Books from this post: link in bio.
 ```
 
 ## Slides

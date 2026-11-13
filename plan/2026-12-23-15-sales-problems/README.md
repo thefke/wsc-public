@@ -21,6 +21,8 @@ Save it before your next sales call.
 
 Which number costs you the most deals?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

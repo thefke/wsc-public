@@ -17,6 +17,8 @@ Save it for the day you need a push.
 
 Whose lesson do you need?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

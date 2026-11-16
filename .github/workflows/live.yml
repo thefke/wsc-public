@@ -1,0 +1,47 @@
+# Hält plan/live.json aktuell: welche Plan-Posts auf @thefke wirklich live sind, mit Zeitpunkt und Link.
+# Die Bio-Link-Seite /en/ig/ auf why-so-curious.com liest die Datei. Skript und Regeln: tools/live.py.
+#
+# Braucht das Secret META_TOKEN: das Systemnutzer-Token aus dem Meta Business Manager
+# (App content-factory, Rechte instagram_basic und pages_show_list). Ohne Secret endet der Lauf
+# mit einem Hinweis, dann schreibt nur der tägliche Schnappschuss aus content-factory die Datei.
+name: Live
+
+on:
+  schedule:
+    - cron: '23 * * * *'   # stündlich zu Minute 23
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live
+  cancel-in-progress: false
+
+jobs:
+  live:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Live-Stand holen
+        id: holen
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: |
+          if [ -z "$META_TOKEN" ]; then
+            echo "Secret META_TOKEN fehlt, nichts zu tun." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          python3 tools/live.py | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Committen
+        run: |
+          git config user.name "wsc-live"
+          git config user.email "actions@users.noreply.github.com"
+          git add plan/live.json
+          git diff --cached --quiet && exit 0
+          git commit -m "live: Stand $(date -u +%FT%H:%MZ)"
+          for i in 1 2 3; do git pull --rebase origin main && git push origin HEAD:main && exit 0; sleep 10; done
+          exit 1

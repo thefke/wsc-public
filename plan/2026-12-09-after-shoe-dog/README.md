@@ -19,6 +19,8 @@ All from my shelf.
 
 Whose story are you reading next?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

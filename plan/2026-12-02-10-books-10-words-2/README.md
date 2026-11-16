@@ -11,6 +11,8 @@ Karussell, 12 Slides. Beim Hochladen 4:5 wählen.
 Name a book in the comments.
 I'll sum it up in 10 words.
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

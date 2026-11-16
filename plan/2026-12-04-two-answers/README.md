@@ -20,6 +20,8 @@ All 20 from my shelf.
 Pick a number for each question.
 Which side are you on?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

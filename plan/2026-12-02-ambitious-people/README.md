@@ -19,6 +19,8 @@ Save it for the day the goal feels far.
 
 Which number is holding you back?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

@@ -17,6 +17,8 @@ Save it and climb one step at a time.
 
 Which topic, which level?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

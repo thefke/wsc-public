@@ -15,6 +15,8 @@ Swipe slowly.
 
 Which number stays with you?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

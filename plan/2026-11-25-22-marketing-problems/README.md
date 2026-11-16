@@ -19,6 +19,8 @@ Save it for your next marketing meeting.
 
 Which number is your problem right now?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

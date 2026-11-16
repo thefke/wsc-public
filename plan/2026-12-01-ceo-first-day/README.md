@@ -18,6 +18,8 @@ Save it. Send it to someone who just got the top job.
 
 Which lesson would you put first?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

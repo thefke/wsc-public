@@ -18,6 +18,8 @@ Check the machine. Bring the ethics.
 
 Which of these are you working on?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

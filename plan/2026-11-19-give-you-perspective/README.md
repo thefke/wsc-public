@@ -18,6 +18,8 @@ Save it for the day you need it.
 
 Which one would you hand a friend first?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

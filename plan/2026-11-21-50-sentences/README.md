@@ -16,6 +16,8 @@ One of them is for you today.
 
 Which number stays with you?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

@@ -17,6 +17,8 @@ except the freedom to choose your response.
 
 What did this year teach you?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

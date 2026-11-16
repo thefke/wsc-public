@@ -19,6 +19,8 @@ Shane Parrish in Clear Thinking:
 
 Are you the fast one in your team?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

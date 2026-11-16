@@ -18,6 +18,8 @@ All from my shelf.
 
 Which old one would you add?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

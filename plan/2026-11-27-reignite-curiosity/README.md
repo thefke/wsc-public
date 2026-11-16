@@ -18,6 +18,8 @@ A list of 25 things.
 
 What are you curious about right now?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

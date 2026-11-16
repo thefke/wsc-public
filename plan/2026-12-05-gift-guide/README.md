@@ -19,6 +19,8 @@ Save it for your shopping run.
 
 Who on your list is the hardest to buy for?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

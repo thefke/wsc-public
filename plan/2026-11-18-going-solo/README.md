@@ -22,6 +22,8 @@ Save it. Send it to someone who just went solo.
 
 Which number are you stuck on?
 
+Books from this post: link in bio.
+
 #books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
 ```
 

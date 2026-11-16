@@ -3,7 +3,7 @@
 #
 # Braucht das Secret META_TOKEN: das Systemnutzer-Token aus dem Meta Business Manager
 # (App content-factory, Rechte instagram_basic und pages_show_list). Ohne Secret endet der Lauf
-# mit einem Hinweis, dann schreibt nur der tägliche Schnappschuss aus content-factory die Datei.
+# mit einem Hinweis, die Datei bleibt dann auf dem letzten Stand.
 name: Live
 
 on:

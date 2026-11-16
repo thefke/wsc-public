@@ -37,6 +37,6 @@ Test ohne Risiko: Actions, `Publish`, „Run workflow" mit `dry_run`. Das zeigt 
 
 `plan/live.json` sagt, welche Plan-Posts auf @thefke wirklich live sind, mit Zeitpunkt und Link (`tools/live.py`). Die Seite `/en/ig/` auf why-so-curious.com liest sie, damit dort steht, was auf Instagram zu sehen ist, auch wenn vom Plandatum abweichend gepostet wird.
 
-- Täglich gegen 05:50 Uhr schreibt sie der geplante Task „Instagram Schnappschuss“ aus `content-factory` (Graph API, Systemnutzer-Token aus der Claude-Umgebung).
-- Stündlich schreibt sie der Workflow `Live`, sobald das Secret `META_TOKEN` gesetzt ist (Systemnutzer-Token, einmal von Thomas eintragen).
+- Stündlich schreibt sie der Workflow `Live`, sobald das Secret `META_TOKEN` gesetzt ist (Systemnutzer-Token, einmal von Thomas eintragen). Bis dahin hilft nur ein Lauf von Hand in einer Claude-Session (`python3 tools/live.py`, der Proxy setzt dort das Token ein).
+- Fehlt ein Post in der Liste, zeigt die Seite ihn ab seinem Plandatum.
 - Der Instagram-Login-Token `IG_ACCESS_TOKEN` für `Publish` lässt sich seit Oktober nicht mehr erneuern (`Refresh Token` endet mit HTTP 400, `GH_PAT` fehlt). `Publish` postet darum nicht, solange er nicht neu erzeugt ist.

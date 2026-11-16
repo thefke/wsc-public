@@ -1,6 +1,6 @@
 """Neue Posts in den Plan einfügen, alles Nicht-Fixierte rückt nach. Aufruf aus dem Repo-Root: python3 tools/plan_insert.py spec.json [--apply]. Ohne --apply nur Bericht. Braucht Pillow, bei kaputtem System-Pillow ein venv im Scratchpad nehmen. Danach tools/plan_index.py laufen lassen.
 spec: [{"date":"2026-10-30","slug":"follow-the-line","title":"...","src":"/pfad/zum/out","caption":"/pfad/cap.md"}]
-Vor den Hashtags steht BIO: der Hinweis auf why-so-curious.com/en/ig/, dort stehen die Bücher jedes Posts. Posts ohne Bücher (Story-Karussells ohne Buch) tragen "bio": false."""
+Vor den Hashtags steht BIO: der Hinweis auf why-so-curious.com/en/ig/, dort stehen die Bücher jedes Posts. Posts ohne Bücher tragen "bio": false."""
 import json, re, sys, shutil, subprocess, datetime as dt
 from pathlib import Path
 from PIL import Image

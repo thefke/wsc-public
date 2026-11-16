@@ -1,6 +1,6 @@
 # Mi 25.11. · Books for fast decision makers
 
-Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
+Abend-Slot, Winkel-Post. Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

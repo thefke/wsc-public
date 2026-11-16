@@ -9,7 +9,7 @@ Das Repo ist öffentlich, weil Instagram die Bilder über eine öffentliche URL 
 - `queue/`: geplante Beiträge, je ein Ordner mit `image.jpg` und `post.json`.
 - `posted/`: veröffentlichte Beiträge, mit Media-ID und Zeitpunkt.
 - `plan/`: vorbereitete Posts zum Hochladen von Hand, je Tag ein Ordner mit Bildern und `caption.txt`. Wird nie automatisch gepostet. Nach jeder Änderung `python3 tools/plan_index.py` laufen lassen, das schreibt `plan/index.json` für die Seite `why-so-curious.com/studio/posts/`.
-- Captions ab 14.11.2026 enden vor den Hashtags mit „Books from this post: link in bio.“ Der Bio-Link geht auf `why-so-curious.com/en/ig/`, dort stehen die Bücher jedes Posts. Die Seite liest den Plan täglich über den Workflow `IG-Feed` in `wsc-web`. `plan_insert.py` setzt die Zeile selbst, Posts ohne Bücher bekommen `"bio": false`.
+- Captions mit Büchern enden ab 17.11.2026 vor den Hashtags mit „Books from this post: link in bio.“ Der Bio-Link geht auf `why-so-curious.com/en/ig/`, dort stehen die Bücher jedes Posts. `plan_insert.py` setzt die Zeile selbst, Posts ohne Bücher bekommen `"bio": false`.
 - Workflow `Publish`: läuft stündlich, postet den nächsten fälligen Beitrag und verschiebt ihn nach `posted/`. Höchstens ein Post pro Lauf.
 - Workflow `Refresh Token`: erneuert den Instagram-Token am 1. und 15. des Monats.
 
@@ -33,3 +33,11 @@ Secrets unter Settings, Secrets and variables, Actions:
 - `GH_PAT`: Fine-grained Token nur für dieses Repo, Berechtigung „Secrets: Read and write". Den braucht `Refresh Token`, um den neuen Token zu speichern.
 
 Test ohne Risiko: Actions, `Publish`, „Run workflow" mit `dry_run`. Das zeigt nur an, was fällig ist.
+
+## Live-Liste für die Bio-Link-Seite
+
+`plan/live.json` sagt, welche Plan-Posts auf @thefke wirklich live sind, mit Zeitpunkt und Link (`tools/live.py`). Die Seite `/en/ig/` auf why-so-curious.com liest sie, damit dort steht, was auf Instagram zu sehen ist, auch wenn vom Plandatum abweichend gepostet wird.
+
+- Stündlich schreibt sie der Workflow `Live`, sobald das Secret `META_TOKEN` gesetzt ist (Systemnutzer-Token, einmal von Thomas eintragen). Bis dahin hilft nur ein Lauf von Hand in einer Claude-Session (`python3 tools/live.py`, der Proxy setzt dort das Token ein).
+- Fehlt ein Post in der Liste, zeigt die Seite ihn ab seinem Plandatum.
+- Der Instagram-Login-Token `IG_ACCESS_TOKEN` für `Publish` lässt sich seit Oktober nicht mehr erneuern (`Refresh Token` endet mit HTTP 400, `GH_PAT` fehlt). `Publish` postet darum nicht, solange er nicht neu erzeugt ist.

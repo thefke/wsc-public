@@ -27,88 +27,87 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Fr 23.10. | [Books for your first paycheck](2026-10-23-first-paycheck-single/) | Einzelbild |
 | Sa 24.10. | [Books for overthinkers](2026-10-24-overthinkers/) | Karussell |
 | So 25.10. | [12 Money Lies You Believe](2026-10-25-12-money-lies/) | Karussell |
-| So 25.10. | [Break Travel: you probably just needed a break](2026-10-25-break-travel/) | Karussell, Video, abends |
+| So 25.10. | [Break Travel: you probably just needed a break](2026-10-25-break-travel/) | Karussell, Video |
 | Mo 26.10. | [20 Money Excuses, 20 Books](2026-10-26-money-excuses/) | Karussell |
 | Di 27.10. | [Advice that sounds smart. And isn't](2026-10-27-advice-that-sounds-smart/) | Karussell |
 | Mi 28.10. | [22 AI Problems](2026-10-28-22-ai-problems/) | Karussell |
-| Mi 28.10. | [Pick your problem. Follow the line.](2026-10-28-follow-the-line/) | Karussell, abends |
+| Mi 28.10. | [Pick your problem. Follow the line.](2026-10-28-follow-the-line/) | Karussell |
 | Do 29.10. | [Books that changed how I think](2026-10-29-changed-how-i-think/) | Karussell |
 | Fr 30.10. | [New Boss: 20 Problems](2026-10-30-first-time-boss/) | Karussell |
-| Fr 30.10. | [Guess the book](2026-10-30-guess-shoe-dog/) | Karussell, abends |
+| Fr 30.10. | [Guess the book](2026-10-30-guess-shoe-dog/) | Karussell |
 | Sa 31.10. | [Books that sound boring. They aren't](2026-10-31-sound-boring-arent/) | Karussell |
 | So 01.11. | [10 Bad Days, 10 Books](2026-11-01-10-bad-days/) | Karussell |
-| Mo 02.11. | [Books for busy people](2026-11-02-busy-people-single/) | Einzelbild, abends |
+| Mo 02.11. | [Books for busy people](2026-11-02-busy-people-single/) | Einzelbild |
 | Mo 02.11. | [Money School Never Taught You](2026-11-02-money-school-never-taught/) | Karussell |
 | Di 03.11. | [One idea worth the whole book](2026-11-03-one-idea-whole-book/) | Karussell |
 | Mi 04.11. | [Afraid to Ask? 20 Questions](2026-11-04-afraid-to-ask/) | Karussell |
-| Mi 04.11. | [Books for career changers](2026-11-04-career-changers-single/) | Einzelbild, abends |
+| Mi 04.11. | [Books for career changers](2026-11-04-career-changers-single/) | Einzelbild |
 | Do 05.11. | [Books that make you quit something](2026-11-05-make-you-quit/) | Karussell |
-| Fr 06.11. | [Books for your 40s](2026-11-06-40s-single/) | Einzelbild, abends |
+| Fr 06.11. | [Books for your 40s](2026-11-06-40s-single/) | Einzelbild |
 | Fr 06.11. | [New Job? 20 Problems, 20 Books](2026-11-06-new-job-90-days/) | Karussell |
 | Sa 07.11. | [The books I recommend to everyone](2026-11-07-recommend-to-everyone/) | Karussell |
 | So 08.11. | [30 Lessons Before 30](2026-11-08-30-before-30/) | Karussell |
+| Mo 09.11. | [I have a confession](2026-11-09-confession/) | Reel |
 | Mo 09.11. | [Biographies that read like thrillers](2026-11-09-read-like-thrillers/) | Karussell |
-| Mo 09.11. | [I have a confession](2026-11-09-confession/) | Reel, abends, Hotel-Dreh |
 | Di 10.11. | [How They Really Work: 20 Companies](2026-11-10-inside-the-companies/) | Karussell |
 | Mi 11.11. | [Leading without a title](2026-11-11-lead-without-title/) | Karussell |
-| Mi 11.11. | [653 books read. None of it was findable](2026-11-11-reading-system/) | Karussell, abends |
-| Do 12.11. | [Pick a Number from 1 to 9](2026-11-12-pick-a-number/) | Karussell |
 | Fr 13.11. | [Questions beat answers. Steal these](2026-11-13-questions-over-answers/) | Karussell |
 | Sa 14.11. | [Learn from the Greatest](2026-11-14-learn-from-the-greatest/) | Karussell |
-| So 15.11. | [Books every marketer should steal from](2026-11-15-marketers-steal-from/) | Karussell |
-| Mo 16.11. | [Before You Start a Company](2026-11-16-before-you-start-a-company/) | Karussell |
-| Di 17.11. | [The shelf of a first-time founder](2026-11-17-first-time-founder-shelf/) | Karussell |
+| Mo 16.11. | [Books that changed how I see the world](2026-11-16-changed-my-worldview/) | Karussell, abends |
+| Mo 16.11. | [653 books read. None of it was findable](2026-11-16-reading-system/) | Karussell |
+| Di 17.11. | [Before You Start a Company](2026-11-17-before-you-start-a-company/) | Karussell |
+| Di 17.11. | [Books that shaped how I lead](2026-11-17-shaped-me-as-leader/) | Karussell, abends |
 | Mi 18.11. | [Going Solo? 20 Problems](2026-11-18-going-solo/) | Karussell |
-| Mi 18.11. | [Still polishing one perfect post?](2026-11-18-one-perfect-post/) | Karussell, abends |
-| Do 19.11. | [Learn from the greatest: Music & Film](2026-11-19-greatest-music-film/) | Karussell |
-| Fr 20.11. | [50 Sentences, 50 Books](2026-11-20-50-sentences/) | Karussell |
-| Sa 21.11. | [Books for clarity in your head](2026-11-21-clarity-in-your-head/) | Karussell |
+| Mi 18.11. | [Old books that are still right](2026-11-18-old-ideas-still-right/) | Karussell, abends |
+| Do 19.11. | [Books that give you perspective](2026-11-19-give-you-perspective/) | Karussell, abends |
+| Do 19.11. | [Still polishing one perfect post?](2026-11-19-one-perfect-post/) | Karussell |
+| Fr 20.11. | [Books I read after a hard stretch](2026-11-20-after-a-hard-stretch/) | Karussell, abends |
+| Fr 20.11. | [Learn from the greatest: Music & Film](2026-11-20-greatest-music-film/) | Karussell |
+| Sa 21.11. | [50 Sentences, 50 Books](2026-11-21-50-sentences/) | Karussell |
+| Sa 21.11. | [Books every marketer should steal from](2026-11-21-marketers-steal-from/) | Karussell, abends |
 | So 22.11. | [10 Books in 10 Words](2026-11-22-10-books-10-words/) | Karussell |
-| Mo 23.11. | [Tech books older than the hype](2026-11-23-older-than-the-hype/) | Karussell |
-| Di 24.11. | [Reading Ladders, Part 2](2026-11-24-reading-ladders-2/) | Karussell |
-| Mi 25.11. | [Books for fast decision makers](2026-11-25-fast-decisions/) | Karussell |
-| Mi 25.11. | [3 books. 1 psychologist](2026-11-25-three-books-one-psychologist/) | Karussell, abends |
-| Do 26.11. | [22 Marketing Problems, 22 Books](2026-11-26-22-marketing-problems/) | Karussell |
-| Fr 27.11. | [Books I want my kids to read one day](2026-11-27-books-for-my-kids/) | Karussell |
-| Sa 28.11. | [Raising Kids? 20 Questions](2026-11-28-parent-questions/) | Karussell |
-| So 29.11. | [Books that reignite your curiosity](2026-11-29-reignite-curiosity/) | Karussell |
-| Mo 30.11. | [Learn from the Greatest: Football](2026-11-30-greatest-football/) | Karussell |
-| Di 01.12. | [The night before a big decision. Read one first](2026-12-01-night-before-decision/) | Karussell |
-| Mi 02.12. | [25 Sentences Your Boss Should Read](2026-12-02-25-sentences-leadership/) | Karussell |
-| Mi 02.12. | [Stuck on a hard problem? Try the opposite of more input](2026-12-02-dmn-walk/) | Karussell, abends |
-| Do 03.12. | [For people who start and never finish](2026-12-03-start-never-finish/) | Karussell |
-| Fr 04.12. | [Learn from the Greatest: Running](2026-12-04-greatest-running/) | Karussell |
+| So 22.11. | [The shelf of a first-time founder](2026-11-22-first-time-founder-shelf/) | Karussell, abends |
+| Mo 23.11. | [Books for clarity in your head](2026-11-23-clarity-in-your-head/) | Karussell, abends |
+| Mo 23.11. | [Reading Ladders, Part 2](2026-11-23-reading-ladders-2/) | Karussell |
+| Di 24.11. | [Tech books older than the hype](2026-11-24-older-than-the-hype/) | Karussell, abends |
+| Di 24.11. | [3 books. 1 psychologist](2026-11-24-three-books-one-psychologist/) | Karussell |
+| Mi 25.11. | [22 Marketing Problems, 22 Books](2026-11-25-22-marketing-problems/) | Karussell |
+| Mi 25.11. | [Books for fast decision makers](2026-11-25-fast-decisions/) | Karussell, abends |
+| Do 26.11. | [Books I want my kids to read one day](2026-11-26-books-for-my-kids/) | Karussell, abends |
+| Do 26.11. | [Raising Kids? 20 Questions](2026-11-26-parent-questions/) | Karussell |
+| Fr 27.11. | [Learn from the Greatest: Football](2026-11-27-greatest-football/) | Karussell |
+| Fr 27.11. | [Books that reignite your curiosity](2026-11-27-reignite-curiosity/) | Karussell, abends |
+| Sa 28.11. | [25 Sentences Your Boss Should Read](2026-11-28-25-sentences-leadership/) | Karussell |
+| Sa 28.11. | [The night before a big decision. Read one first](2026-11-28-night-before-decision/) | Karussell, abends |
+| So 29.11. | [Stuck on a hard problem? Try the opposite of more input](2026-11-29-dmn-walk/) | Karussell |
+| So 29.11. | [For people who start and never finish](2026-11-29-start-never-finish/) | Karussell, abends |
+| Mo 30.11. | [Learn from the Greatest: Running](2026-11-30-greatest-running/) | Karussell |
+| Mo 30.11. | [Books for the scarcest thing you have: time](2026-11-30-time-scarcest-asset/) | Karussell, abends |
+| Di 01.12. | [Read this before day one as a CEO](2026-12-01-ceo-first-day/) | Karussell, abends |
+| Di 01.12. | [Reading Ladders, Part 3](2026-12-01-reading-ladders-3/) | Karussell |
+| Mi 02.12. | [10 Books in 10 Words, Part 2](2026-12-02-10-books-10-words-2/) | Karussell |
+| Mi 02.12. | [Books for ambitious people](2026-12-02-ambitious-people/) | Karussell, abends |
+| Do 03.12. | [What AI won't take from you](2026-12-03-ai-wont-take/) | Karussell, abends |
+| Do 03.12. | [Your posts keep getting shorter, sharper, louder?](2026-12-03-who-picks-the-topic/) | Karussell |
+| Fr 04.12. | [Learn from the Greatest: Tennis](2026-12-04-greatest-tennis/) | Karussell, abends |
+| Fr 04.12. | [10 questions. 20 books. Zero agreement](2026-12-04-two-answers/) | Karussell |
+| Sa 05.12. | [25 Sentences About Money](2026-12-05-25-sentences-money/) | Karussell, abends |
 | Sa 05.12. | [One book for every person on your list](2026-12-05-gift-guide/) | Karussell |
-| So 06.12. | [A Sunday with no plans. Read slowly](2026-12-06-sunday-no-plans/) | Karussell |
-| Mo 07.12. | [Reading Ladders, Part 3](2026-12-07-reading-ladders-3/) | Karussell |
-| Di 08.12. | [Books for the scarcest thing you have: time](2026-12-08-time-scarcest-asset/) | Karussell |
-| Mi 09.12. | [10 Books in 10 Words, Part 2](2026-12-09-10-books-10-words-2/) | Karussell |
-| Mi 09.12. | [Your posts keep getting shorter, sharper, louder?](2026-12-09-who-picks-the-topic/) | Karussell, abends |
-| Do 10.12. | [10 questions. 20 books. Zero agreement](2026-12-10-two-answers/) | Karussell |
-| Fr 11.12. | [Learn from the Greatest: Tennis](2026-12-11-greatest-tennis/) | Karussell |
-| Sa 12.12. | [Read this before day one as a CEO](2026-12-12-ceo-first-day/) | Karussell |
-| So 13.12. | [25 Sentences About Money](2026-12-13-25-sentences-money/) | Karussell |
-| Mo 14.12. | [Old books that are still right](2026-12-14-old-ideas-still-right/) | Karussell |
-| Di 15.12. | [Books that give you perspective](2026-12-15-give-you-perspective/) | Karussell |
-| Mi 16.12. | [Books for ambitious people](2026-12-16-ambitious-people/) | Karussell |
-| Mi 16.12. | [Why we forgive people. Not machines](2026-12-16-algorithm-aversion/) | Karussell, abends |
-| Do 17.12. | [Books that changed how I see the world](2026-12-17-changed-my-worldview/) | Karussell |
-| Fr 18.12. | [Liked Sapiens? Read these next](2026-12-18-after-sapiens/) | Karussell |
-| Sa 19.12. | [Learn from the Greatest: Founders](2026-12-19-greatest-founders/) | Karussell |
-| So 20.12. | [Books that shaped how I lead](2026-12-20-shaped-me-as-leader/) | Karussell |
-| Mo 21.12. | [50 Sentences, 50 Books, Part 2](2026-12-21-50-sentences-2/) | Karussell |
-| Di 22.12. | [Books I read after a hard stretch](2026-12-22-after-a-hard-stretch/) | Karussell |
-| Mi 23.12. | [15 Sales Problems, 15 Books](2026-12-23-15-sales-problems/) | Karussell |
-| Mi 23.12. | [Which AI course should I take?](2026-12-23-which-ai-course/) | Karussell, abends |
-| Do 24.12. | [Liked Shoe Dog? Read these next](2026-12-24-after-shoe-dog/) | Karussell |
-| Fr 25.12. | [Learn from the Greatest: Cycling](2026-12-25-greatest-cycling/) | Karussell |
-| Sa 26.12. | [What AI won't take from you](2026-12-26-ai-wont-take/) | Karussell |
+| So 06.12. | [Why we forgive people. Not machines](2026-12-06-algorithm-aversion/) | Karussell |
+| So 06.12. | [A Sunday with no plans. Read slowly](2026-12-06-sunday-no-plans/) | Karussell, abends |
+| Mo 07.12. | [Liked Sapiens? Read these next](2026-12-07-after-sapiens/) | Karussell |
+| Mo 07.12. | [Learn from the Greatest: Founders](2026-12-07-greatest-founders/) | Karussell, abends |
+| Di 08.12. | [15 Sales Problems, 15 Books](2026-12-08-15-sales-problems/) | Karussell, abends |
+| Di 08.12. | [50 Sentences, 50 Books, Part 2](2026-12-08-50-sentences-2/) | Karussell |
+| Mi 09.12. | [Liked Shoe Dog? Read these next](2026-12-09-after-shoe-dog/) | Karussell, abends |
+| Mi 09.12. | [Which AI course should I take?](2026-12-09-which-ai-course/) | Karussell |
+| Do 10.12. | [Learn from the Greatest: Cycling](2026-12-10-greatest-cycling/) | Karussell |
 | Mi 30.12. | [Your 2027 Reading Plan](2026-12-30-reading-plan-2027/) | Karussell |
 | Do 31.12. | [The last days of the year. Look back first](2026-12-31-end-of-year-reflection/) | Karussell |
 | Fr 01.01. | [The first week of January. Start here](2027-01-01-first-week-of-january/) | Karussell |
-| Mo 04.01. | [Forty minutes of nodding](2027-01-04-forty-minutes-of-nodding/) | Karussell, Buchkampagne |
-| Mi 06.01. | [107 questions an hour](2027-01-06-107-questions/) | Karussell, Buchkampagne |
-| Fr 08.01. | [$300 billion to over $3 trillion](2027-01-08-learn-it-all/) | Karussell, Buchkampagne |
+| Mo 04.01. | [Forty minutes of nodding](2027-01-04-forty-minutes-of-nodding/) | Karussell |
+| Mi 06.01. | [107 questions an hour](2027-01-06-107-questions/) | Karussell |
+| Fr 08.01. | [$300 billion to over $3 trillion](2027-01-08-learn-it-all/) | Karussell |
 
 Hinweise:
 - Karussells beim Hochladen auf 4:5 stellen.
@@ -121,4 +120,12 @@ Hinweise:
 - Ab 25.10. zwei Slots: tagsüber 15 bis 16 Uhr MESZ das Karussell als Basis, Mo, Mi und Fr 19 bis 20 Uhr ein Format-Test (Video-Karussell, Mitmach-Formate, Einzelbilder, ab 11.11. Formate aus dem Hotel-Dreh). Ziel: bis Jahresende je Format 4 bis 6 Datenpunkte.
 - Ab 11.11. mittwochs abends Story-Karussells (Text-Slides, `wsc-web/tools/social/story.mjs`), sieben Stück bis 23.12. Kamen am 01.11.2026 aus der Content Pipeline von Thomas Hefke, die seitdem nur noch LinkedIn und Instagram DE zeigt. Mo und Fr abends bleiben für die Formate aus dem Hotel-Dreh. 04., 06. und 08.01.2027: drei Posts der Buchkampagne als Vorschlag zum Kampagnenstart.
 - Mo 09.11. abends: Geständnis-Reel aus dem Hotel-Dreh (IMG_3001), Test, weil Reels seit 10.10. pausiert sind. Ohne Ton, Sound in der App.
+- Auswertung 16.11. (erste aus der Graph API, `content-factory/content/insights/2026-11-16-auswertung.md`), Entscheidungen Thomas am selben Tag:
+  - Winkel-Posts mit eigenem Blick vorziehen. „Books that sound boring. They aren't“ und „Books that changed how I think“ holten je rund 1 Follow je 100 Views, zehnmal so viel wie der Median, und zusammen mit „22 AI Problems“ gut die Hälfte aller Follows der letzten 35 Tage (351 von 663).
+  - Saves je 100 Views sind der Frühindikator für Follows (Korrelation 0,86 über 28 Posts). Vor Ablauf von 7 Tagen auf Saves schauen, nicht auf Views.
+  - Mitmach-Formate gestoppt: Follow the Line und Guess the Book bekamen 0 Follows und fast keine Saves. Keine neuen Posts dieser Art.
+  - Reels bleiben pausiert: Die vier Reels seit 06.11. kamen zusammen auf 6.784 Views und 2 Sends, ein Karussell im Median auf 3.657 Views.
+  - Gepostet wird seit 09.11. meist zweimal am Tag, 2 bis 6 Tage nach dem Plandatum.
+- Ab 16.11.: zwei Karussells am Tag (Entscheidung Thomas 16.11.2026), ersetzt die Slots „tagsüber plus Format-Test Mo, Mi, Fr“. Erster Post bis 13 Uhr, zweiter ab 18 Uhr. Abends ein Winkel-Post, solange welche da sind (README im Ordner: „Abend-Slot, Winkel-Post“). Pick a Number ist raus (Mitmach-Format). Fest bleiben Gift Guide (05.12.), Jahresende (30.12. bis 01.01.) und die Buchkampagne (04., 06., 08.01.).
+- Der Plan reicht damit bis Do 10.12. Für 11. bis 29.12. und die freien Slots im Januar fehlen rund 45 Karussells, also 14 neue je Woche ab sofort.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

@@ -121,4 +121,10 @@ Hinweise:
 - Ab 25.10. zwei Slots: tagsüber 15 bis 16 Uhr MESZ das Karussell als Basis, Mo, Mi und Fr 19 bis 20 Uhr ein Format-Test (Video-Karussell, Mitmach-Formate, Einzelbilder, ab 11.11. Formate aus dem Hotel-Dreh). Ziel: bis Jahresende je Format 4 bis 6 Datenpunkte.
 - Ab 11.11. mittwochs abends Story-Karussells (Text-Slides, `wsc-web/tools/social/story.mjs`), sieben Stück bis 23.12. Kamen am 01.11.2026 aus der Content Pipeline von Thomas Hefke, die seitdem nur noch LinkedIn und Instagram DE zeigt. Mo und Fr abends bleiben für die Formate aus dem Hotel-Dreh. 04., 06. und 08.01.2027: drei Posts der Buchkampagne als Vorschlag zum Kampagnenstart.
 - Mo 09.11. abends: Geständnis-Reel aus dem Hotel-Dreh (IMG_3001), Test, weil Reels seit 10.10. pausiert sind. Ohne Ton, Sound in der App.
+- Auswertung 16.11. (erste aus der Graph API, `content-factory/content/insights/2026-11-16-auswertung.md`), Entscheidungen Thomas am selben Tag:
+  - Winkel-Posts mit eigenem Blick vorziehen. „Books that sound boring. They aren't“ und „Books that changed how I think“ holten je rund 1 Follow je 100 Views, zehnmal so viel wie der Median, und zusammen mit „22 AI Problems“ gut die Hälfte aller Follows der letzten 35 Tage (351 von 663).
+  - Saves je 100 Views sind der Frühindikator für Follows (Korrelation 0,86 über 28 Posts). Vor Ablauf von 7 Tagen auf Saves schauen, nicht auf Views.
+  - Mitmach-Formate gestoppt: Follow the Line und Guess the Book bekamen 0 Follows und fast keine Saves. Keine neuen Posts dieser Art.
+  - Reels bleiben pausiert: Die vier Reels seit 06.11. kamen zusammen auf 6.784 Views und 2 Sends, ein Karussell im Median auf 3.657 Views.
+  - Gepostet wird seit 09.11. meist zweimal am Tag, 2 bis 6 Tage nach dem Plandatum.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

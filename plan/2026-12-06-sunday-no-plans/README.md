@@ -1,6 +1,6 @@
 # So 06.12. · A Sunday with no plans. Read slowly
 
-Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
+Abend-Slot, Winkel-Post. Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

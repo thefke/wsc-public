@@ -22,7 +22,7 @@ I call it the DMN walk. Tool 1 in my curiosity toolkit.
 
 Try it once this week?
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

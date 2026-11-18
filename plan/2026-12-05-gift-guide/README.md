@@ -21,7 +21,7 @@ Who on your list is the hardest to buy for?
 
 Books from this post: link in bio.
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

@@ -21,7 +21,7 @@ Which number is your problem right now?
 
 Books from this post: link in bio.
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

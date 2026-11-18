@@ -19,7 +19,7 @@ What does your perfect Sunday look like?
 
 Books from this post: link in bio.
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

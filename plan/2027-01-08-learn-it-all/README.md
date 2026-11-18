@@ -17,7 +17,7 @@ I keep coming back to this case because the comfort zone is the only trap you bu
 
 What did you learn last week? Not achieve. Learn.
 
-#leadership #culture #microsoft #curiosity #whysocurious
+#leadership #culture #microsoft
 ```
 
 ## Slides

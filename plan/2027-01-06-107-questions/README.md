@@ -17,7 +17,7 @@ Nobody outgrows curiosity. A molecular biologist named John Medina puts it blunt
 
 Count your questions tomorrow. Just count them. That number tells you more about your next five years than your CV does.
 
-#curiosity #learning #questions #whysocurious #books
+#curiosity #learning #questions
 ```
 
 ## Slides

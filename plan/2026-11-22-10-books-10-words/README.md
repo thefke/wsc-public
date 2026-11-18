@@ -17,7 +17,7 @@ I'll sum it up in 10 words.
 
 Books from this post: link in bio.
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

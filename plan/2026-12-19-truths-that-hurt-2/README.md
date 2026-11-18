@@ -1,0 +1,34 @@
+# Sa 19.12. · 20 Truths That Hurt, Part 2
+
+Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+
+## Caption
+
+```
+20 more truths that hurt.
+20 more books that say them out loud.
+
+10 about work.
+10 about life.
+
+Number 1 comes from Seth Godin in The Practice:
+“Meetings are a great place to hide.”
+
+All from my shelf.
+
+Swipe until one hits.
+Send it to the friend who needs number 2.
+
+Which number hurt? Be honest.
+
+Books from this post: link in bio.
+
+#bookstagram #bookrecommendations #books
+```
+
+## Slides
+
+![01.jpg](01.jpg)
+![02.jpg](02.jpg)
+![03.jpg](03.jpg)
+![04.jpg](04.jpg)

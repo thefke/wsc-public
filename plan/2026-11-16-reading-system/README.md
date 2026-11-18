@@ -13,7 +13,7 @@ Two weeks of setup. Zero new apps. Just markdown and a habit.
 
 What's your system for keeping what you read? 📚
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

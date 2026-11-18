@@ -21,7 +21,7 @@ Are you the fast one in your team?
 
 Books from this post: link in bio.
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

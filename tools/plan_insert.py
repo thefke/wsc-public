@@ -6,7 +6,7 @@ from pathlib import Path
 from PIL import Image
 P = Path(__file__).resolve().parent.parent / 'plan'; APPLY = '--apply' in sys.argv
 BIO = 'Books from this post: link in bio.'
-TAGS = '#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious'
+TAGS = '#bookstagram #bookrecommendations #books'  # höchstens drei Hashtags (Thomas, 18.11.2026)
 DOW = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
 PIN = {'gift-guide': '2026-12-05', 'reading-plan-2027': '2026-12-30', 'end-of-year-reflection': '2026-12-31', 'first-week-of-january': '2027-01-01'}
 spec = json.load(open(sys.argv[1]))

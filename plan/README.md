@@ -117,6 +117,19 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mi 16.12. | [One idea worth the whole book, Part 2](2026-12-16-one-idea-whole-book-2/) | Karussell, abends |
 | Do 17.12. | [50 Things School Never Taught You, Part 3](2026-12-17-50-things-school-3/) | Karussell |
 | Do 17.12. | [Liked Thinking, Fast and Slow? Read these next](2026-12-17-after-thinking-fast-slow/) | Karussell, abends |
+| Fr 18.12. | [25 Sentences About Work](2026-12-18-25-sentences-work/) | Karussell |
+| Fr 18.12. | [Sports books that are really about work](2026-12-18-sports-books-about-work/) | Karussell, abends |
+| Sa 19.12. | [Last minute: books that look like you planned this](2026-12-19-gift-last-minute/) | Karussell, abends |
+| Sa 19.12. | [20 Truths That Hurt, Part 2](2026-12-19-truths-that-hurt-2/) | Karussell |
+| So 20.12. | [One Problem for Every Age, Part 2](2026-12-20-one-problem-per-age-2/) | Karussell |
+| Mo 21.12. | [20 Creative Problems, 20 Books](2026-12-21-20-creative-problems/) | Karussell |
+| Mo 21.12. | [The longest night of the year. Read one of these](2026-12-21-longest-night/) | Karussell, abends |
+| Di 22.12. | [Christmas with family? Read one first](2026-12-22-christmas-family/) | Karussell, abends |
+| Di 22.12. | [Learn from the Greatest: Explorers](2026-12-22-greatest-explorers/) | Karussell |
+| Mi 23.12. | [Liked Steve Jobs? Read these next](2026-12-23-after-steve-jobs/) | Karussell |
+| Mi 23.12. | [Learn from the Greatest: Basketball](2026-12-23-greatest-basketball/) | Karussell, abends |
+| Do 24.12. | [10 Books in 10 Words, Part 4](2026-12-24-10-books-10-words-4/) | Karussell |
+| Do 24.12. | [Advice that sounds smart. And isn't, Part 2](2026-12-24-advice-sounds-smart-2/) | Karussell, abends |
 | Mi 30.12. | [Your 2027 Reading Plan](2026-12-30-reading-plan-2027/) | Karussell |
 | Do 31.12. | [The last days of the year. Look back first](2026-12-31-end-of-year-reflection/) | Karussell |
 | Fr 01.01. | [The first week of January. Start here](2027-01-01-first-week-of-january/) | Karussell |
@@ -144,6 +157,7 @@ Hinweise:
 - Ab 16.11.: zwei Karussells am Tag (Entscheidung Thomas 16.11.2026), ersetzt die Slots „tagsüber plus Format-Test Mo, Mi, Fr“. Erster Post bis 13 Uhr, zweiter ab 18 Uhr. Abends ein Winkel-Post, solange welche da sind (README im Ordner: „Abend-Slot, Winkel-Post“). Pick a Number ist raus (Mitmach-Format). Fest bleiben Gift Guide (05.12.), Jahresende (30.12. bis 01.01.) und die Buchkampagne (04., 06., 08.01.).
 - Der Plan reicht damit bis Do 10.12. Für 11. bis 29.12. und die freien Slots im Januar fehlen rund 45 Karussells, also 14 neue je Woche ab sofort.
 - Nachschub ab 10.12. (Vorschlag 16.11., bestätigt Thomas 18.11.): 53 Slots bis 08.01. mit sechs gewählten Themen, drei Geschenklisten (12., 19., 26.12.) und Fortsetzungen der Reihen. Tabelle und Buchlisten im Chat vom 16.11., Session https://claude.ai/code/session_012MyTsSKr7TZLj9k5zoRET1. „How 10 companies almost died“ läuft als „10 companies. How they handled failure“, weil der Vault die Beinahe-Pleite nur bei vier Firmen belegt.
-- Stand 18.11.: eingefügt bis Do 17.12., beide Slots. Offen: 18. bis 29.12. und die zweiten Slots im Januar. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
+- Stand 18.11.: eingefügt bis Do 24.12., beide Slots außer So 20.12. abends. Offen: 25. bis 29.12. und die zweiten Slots im Januar. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
+- Ab 18.11.: höchstens drei Hashtags je Post (Thomas, 18.11.2026). Standard `#bookstagram #bookrecommendations #books`, Story-Karussells behalten ihre ersten drei. Umgestellt in allen Plan-Posts, die laut live.json noch nicht gepostet sind, und in `tools/plan_insert.py`. Gepostete Posts bleiben, wie sie sind.
 - Eingefügt wurde mit einem Session-Skript ohne Verschieben. `tools/plan_insert.py` kennt nur einen Post pro Tag, rückt alles nach und verliert „abends“ in der Tabelle.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

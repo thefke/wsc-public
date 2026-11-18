@@ -13,7 +13,7 @@ Quelle: `thomas-hefke-os/knowledge/06-content/posts/`, gebaut mit `wsc-web/tools
 
 What's the last thing two of your books agreed on without knowing it? 📚
 
-#books #bookstagram #bookrecommendations #reading #thefke #booklover #whysocurious
+#bookstagram #bookrecommendations #books
 ```
 
 ## Slides

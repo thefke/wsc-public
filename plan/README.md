@@ -102,6 +102,21 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mi 09.12. | [Liked Shoe Dog? Read these next](2026-12-09-after-shoe-dog/) | Karussell, abends |
 | Mi 09.12. | [Which AI course should I take?](2026-12-09-which-ai-course/) | Karussell |
 | Do 10.12. | [Learn from the Greatest: Cycling](2026-12-10-greatest-cycling/) | Karussell |
+| Do 10.12. | [Books that sound boring. They aren't, Part 2](2026-12-10-sound-boring-arent-2/) | Karussell, abends |
+| Fr 11.12. | [Liked The Psychology of Money? Read these next](2026-12-11-after-psychology-of-money/) | Karussell, abends |
+| Fr 11.12. | [How They Really Work: 20 More Companies](2026-12-11-inside-the-companies-2/) | Karussell |
+| Sa 12.12. | [50 Sentences, 50 Books, Part 3](2026-12-12-50-sentences-3/) | Karussell |
+| Sa 12.12. | [Books for the person who has everything](2026-12-12-gift-has-everything/) | Karussell, abends |
+| So 13.12. | [10 Books in 10 Words, Part 3](2026-12-13-10-books-10-words-3/) | Karussell |
+| So 13.12. | [Learn from the Greatest: Coaches](2026-12-13-greatest-coaches/) | Karussell, abends |
+| Mo 14.12. | [Books for people who think they're bad with numbers](2026-12-14-bad-with-numbers/) | Karussell, abends |
+| Mo 14.12. | [10 companies. How they handled failure](2026-12-14-companies-handled-failure/) | Karussell |
+| Di 15.12. | [Biographies that read like thrillers, Part 2](2026-12-15-read-like-thrillers-2/) | Karussell, abends |
+| Di 15.12. | [Reading Ladders, Part 4](2026-12-15-reading-ladders-4/) | Karussell |
+| Mi 16.12. | [20 Focus Problems, 20 Books](2026-12-16-20-focus-problems/) | Karussell |
+| Mi 16.12. | [One idea worth the whole book, Part 2](2026-12-16-one-idea-whole-book-2/) | Karussell, abends |
+| Do 17.12. | [50 Things School Never Taught You, Part 3](2026-12-17-50-things-school-3/) | Karussell |
+| Do 17.12. | [Liked Thinking, Fast and Slow? Read these next](2026-12-17-after-thinking-fast-slow/) | Karussell, abends |
 | Mi 30.12. | [Your 2027 Reading Plan](2026-12-30-reading-plan-2027/) | Karussell |
 | Do 31.12. | [The last days of the year. Look back first](2026-12-31-end-of-year-reflection/) | Karussell |
 | Fr 01.01. | [The first week of January. Start here](2027-01-01-first-week-of-january/) | Karussell |
@@ -128,4 +143,7 @@ Hinweise:
   - Gepostet wird seit 09.11. meist zweimal am Tag, 2 bis 6 Tage nach dem Plandatum.
 - Ab 16.11.: zwei Karussells am Tag (Entscheidung Thomas 16.11.2026), ersetzt die Slots „tagsüber plus Format-Test Mo, Mi, Fr“. Erster Post bis 13 Uhr, zweiter ab 18 Uhr. Abends ein Winkel-Post, solange welche da sind (README im Ordner: „Abend-Slot, Winkel-Post“). Pick a Number ist raus (Mitmach-Format). Fest bleiben Gift Guide (05.12.), Jahresende (30.12. bis 01.01.) und die Buchkampagne (04., 06., 08.01.).
 - Der Plan reicht damit bis Do 10.12. Für 11. bis 29.12. und die freien Slots im Januar fehlen rund 45 Karussells, also 14 neue je Woche ab sofort.
+- Nachschub ab 10.12. (Vorschlag 16.11., bestätigt Thomas 18.11.): 53 Slots bis 08.01. mit sechs gewählten Themen, drei Geschenklisten (12., 19., 26.12.) und Fortsetzungen der Reihen. Tabelle und Buchlisten im Chat vom 16.11., Session https://claude.ai/code/session_012MyTsSKr7TZLj9k5zoRET1. „How 10 companies almost died“ läuft als „10 companies. How they handled failure“, weil der Vault die Beinahe-Pleite nur bei vier Firmen belegt.
+- Stand 18.11.: eingefügt bis Do 17.12., beide Slots. Offen: 18. bis 29.12. und die zweiten Slots im Januar. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
+- Eingefügt wurde mit einem Session-Skript ohne Verschieben. `tools/plan_insert.py` kennt nur einen Post pro Tag, rückt alles nach und verliert „abends“ in der Tabelle.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

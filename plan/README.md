@@ -140,12 +140,26 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mo 28.12. | [Liked Can't Hurt Me? Read these next](2026-12-28-after-cant-hurt-me/) | Karussell, abends |
 | Di 29.12. | [Afraid to Ask? 20 Questions, Part 2](2026-12-29-afraid-to-ask-2/) | Karussell |
 | Di 29.12. | [Books that changed how I think, Part 2](2026-12-29-changed-how-i-think-2/) | Karussell, abends |
+| Mi 30.12. | [Old books that are still right, Part 2](2026-12-30-old-ideas-still-right-2/) | Karussell, abends |
 | Mi 30.12. | [Your 2027 Reading Plan](2026-12-30-reading-plan-2027/) | Karussell |
 | Do 31.12. | [The last days of the year. Look back first](2026-12-31-end-of-year-reflection/) | Karussell |
+| Do 31.12. | [Learn from the Greatest: Endurance](2026-12-31-greatest-endurance/) | Karussell, abends |
 | Fr 01.01. | [The first week of January. Start here](2027-01-01-first-week-of-january/) | Karussell |
+| Fr 01.01. | [Train your mind like your body](2027-01-01-train-your-mind/) | Karussell, abends |
+| Sa 02.01. | [First day back at work? Read one first](2027-01-02-first-day-back/) | Karussell, abends |
+| Sa 02.01. | [January excuses, 20 books](2027-01-02-january-excuses/) | Karussell |
+| So 03.01. | [Career reset? 20 Problems, 20 Books](2027-01-03-career-reset/) | Karussell |
+| So 03.01. | [Books for people who hate New Year's resolutions](2027-01-03-hate-resolutions/) | Karussell, abends |
+| Mo 04.01. | [Liked Meditations? Read these next](2027-01-04-after-meditations/) | Karussell, abends |
 | Mo 04.01. | [Forty minutes of nodding](2027-01-04-forty-minutes-of-nodding/) | Karussell |
+| Di 05.01. | [Reading Ladders, Part 5](2027-01-05-reading-ladders-5/) | Karussell |
+| Di 05.01. | [Books that sound boring. They aren't, Part 3](2027-01-05-sound-boring-arent-3/) | Karussell, abends |
 | Mi 06.01. | [107 questions an hour](2027-01-06-107-questions/) | Karussell |
+| Mi 06.01. | [The shelf of a first-time manager](2027-01-06-first-time-manager-shelf/) | Karussell, abends |
+| Do 07.01. | [How They Really Work: 14 More Companies](2027-01-07-inside-the-companies-3/) | Karussell |
+| Do 07.01. | [Books for people who read one book a year](2027-01-07-one-book-a-year/) | Karussell, abends |
 | Fr 08.01. | [$300 billion to over $3 trillion](2027-01-08-learn-it-all/) | Karussell |
+| Fr 08.01. | [Science books that read like novels](2027-01-08-science-like-novels/) | Karussell, abends |
 
 Hinweise:
 - Karussells beim Hochladen auf 4:5 stellen.
@@ -167,7 +181,7 @@ Hinweise:
 - Ab 16.11.: zwei Karussells am Tag (Entscheidung Thomas 16.11.2026), ersetzt die Slots „tagsüber plus Format-Test Mo, Mi, Fr“. Erster Post bis 13 Uhr, zweiter ab 18 Uhr. Abends ein Winkel-Post, solange welche da sind (README im Ordner: „Abend-Slot, Winkel-Post“). Pick a Number ist raus (Mitmach-Format). Fest bleiben Gift Guide (05.12.), Jahresende (30.12. bis 01.01.) und die Buchkampagne (04., 06., 08.01.).
 - Der Plan reicht damit bis Do 10.12. Für 11. bis 29.12. und die freien Slots im Januar fehlen rund 45 Karussells, also 14 neue je Woche ab sofort.
 - Nachschub ab 10.12. (Vorschlag 16.11., bestätigt Thomas 18.11.): 53 Slots bis 08.01. mit sechs gewählten Themen, drei Geschenklisten (12., 19., 26.12.) und Fortsetzungen der Reihen. Tabelle und Buchlisten im Chat vom 16.11., Session https://claude.ai/code/session_012MyTsSKr7TZLj9k5zoRET1. „How 10 companies almost died“ läuft als „10 companies. How they handled failure“, weil der Vault die Beinahe-Pleite nur bei vier Firmen belegt.
-- Stand 19.11.: eingefügt bis Di 29.12., beide Slots außer So 20.12. abends („My 10 best books of 2026“, wartet auf Thomas' Titel). Offen: die zweiten Slots vom 30.12. bis 08.01. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
+- Stand 19.11.: Plan bis Fr 08.01. voll, beide Slots. Leer nur So 20.12. abends („My 10 best books of 2026“, wartet auf Thomas' Titel). „How They Really Work, Part 3“ (07.01.) nur, wenn Part 2 (11.12.) gut läuft, sonst tauschen. Part 3 hat 14 Firmen, mehr gibt der Vault mit Beleg nicht her. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
 - Ab 18.11.: höchstens drei Hashtags je Post (Thomas, 18.11.2026). Standard `#bookstagram #bookrecommendations #books`, Story-Karussells behalten ihre ersten drei. Umgestellt in allen Plan-Posts, die laut live.json noch nicht gepostet sind, und in `tools/plan_insert.py`. Gepostete Posts bleiben, wie sie sind.
 - Eingefügt wurde mit einem Session-Skript ohne Verschieben. `tools/plan_insert.py` kennt nur einen Post pro Tag, rückt alles nach und verliert „abends“ in der Tabelle.
 - `plan/` wird nie automatisch gepostet. Automatisch geht nur, was in `queue/` liegt.

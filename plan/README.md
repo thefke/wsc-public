@@ -111,18 +111,25 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 06.12. | [Turning 30? 20 Problems, 20 Books](2026-12-06-turning-30/) | Karussell, früh, automatisch |
 | Mo 07.12. | [Liked Sapiens? Read these next](2026-12-07-after-sapiens/) | Karussell |
 | Mo 07.12. | [Learn from the Greatest: Founders](2026-12-07-greatest-founders/) | Karussell, abends |
+| Mo 07.12. | [Selling yourself feels awkward? 20 Problems, 20 Books](2026-12-07-selling-yourself/) | Karussell, früh, automatisch |
 | Di 08.12. | [15 Sales Problems, 15 Books](2026-12-08-15-sales-problems/) | Karussell, abends |
 | Di 08.12. | [50 Sentences, 50 Books, Part 2](2026-12-08-50-sentences-2/) | Karussell |
+| Di 08.12. | [The shelf of a solo founder](2026-12-08-solo-founder-shelf/) | Karussell, früh, automatisch |
 | Mi 09.12. | [Liked Shoe Dog? Read these next](2026-12-09-after-shoe-dog/) | Karussell, abends |
+| Mi 09.12. | [Building a personal brand? 20 Problems, 20 Books](2026-12-09-personal-brand/) | Karussell, früh, automatisch |
 | Mi 09.12. | [Which AI course should I take?](2026-12-09-which-ai-course/) | Karussell |
+| Do 10.12. | [Liked Show Your Work? Read these next](2026-12-10-after-show-your-work/) | Karussell, früh, automatisch |
 | Do 10.12. | [Learn from the Greatest: Cycling](2026-12-10-greatest-cycling/) | Karussell |
 | Do 10.12. | [Books that sound boring. They aren't, Part 2](2026-12-10-sound-boring-arent-2/) | Karussell, abends |
 | Fr 11.12. | [Liked The Psychology of Money? Read these next](2026-12-11-after-psychology-of-money/) | Karussell, abends |
 | Fr 11.12. | [How They Really Work: 20 More Companies](2026-12-11-inside-the-companies-2/) | Karussell |
+| Fr 11.12. | [Afraid to raise your prices? 15 Problems, 15 Books](2026-12-11-raise-your-prices/) | Karussell, früh, automatisch |
 | Sa 12.12. | [50 Sentences, 50 Books, Part 3](2026-12-12-50-sentences-3/) | Karussell |
+| Sa 12.12. | [Creator business? 20 Problems, 20 Books](2026-12-12-creator-business/) | Karussell, früh, automatisch |
 | Sa 12.12. | [Books for the person who has everything](2026-12-12-gift-has-everything/) | Karussell, abends |
 | So 13.12. | [10 Books in 10 Words, Part 3](2026-12-13-10-books-10-words-3/) | Karussell |
 | So 13.12. | [Learn from the Greatest: Coaches](2026-12-13-greatest-coaches/) | Karussell, abends |
+| So 13.12. | [Books that teach you to sell without being salesy](2026-12-13-sell-without-salesy/) | Karussell, früh, automatisch |
 | Mo 14.12. | [Books for people who think they're bad with numbers](2026-12-14-bad-with-numbers/) | Karussell, abends |
 | Mo 14.12. | [10 companies. How they handled failure](2026-12-14-companies-handled-failure/) | Karussell |
 | Di 15.12. | [Biographies that read like thrillers, Part 2](2026-12-15-read-like-thrillers-2/) | Karussell, abends |
@@ -198,6 +205,7 @@ Hinweise:
 - Stand 19.11.: Plan bis Fr 08.01. voll, beide Slots. Leer nur So 20.12. abends („My 10 best books of 2026“, wartet auf Thomas' Titel). „How They Really Work, Part 3“ (07.01.) nur, wenn Part 2 (11.12.) gut läuft, sonst tauschen. Part 3 hat 14 Firmen, mehr gibt der Vault mit Beleg nicht her. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
 - Ab 18.11.: höchstens drei Hashtags je Post (Thomas, 18.11.2026). Standard `#bookstagram #bookrecommendations #books`, Story-Karussells behalten ihre ersten drei. Umgestellt in allen Plan-Posts, die laut live.json noch nicht gepostet sind, und in `tools/plan_insert.py`. Gepostete Posts bleiben, wie sie sind.
 - Ab Mo 23.11.: drei Karussells am Tag (Thomas, 19.11.2026, Option C). Früh-Slot 07:30 bis 09:30, Uhrzeit je Tag gewürfelt, wird automatisch ohne Musik gepostet (`queue/`, `tools/publish.py`, Workflow Publish stündlich). Mittag und Abend postet Thomas von Hand mit der empfohlenen lizenzfreien Musik. Die Audio API hängt Musik nur an Reels und nur mit Facebook-Login, nicht an Karussells (Meta-Doku geprüft 19.11.2026). Neue Früh-Posts: `tools/plan_add.py` mit Slot `frueh`, dann `tools/queue_plan.py --slot frueh --apply`. Nach zwei Wochen Views und Saves der Früh-Posts gegen die von Hand vergleichen. Die Uhrzeit unterscheidet sich mit, die Zahl ist also ein Richtwert.
+- Ich-Aussagen in Captions (Thomas, 19.11.2026): erlaubt, wenn sie wahr und belegt sind, etwa „I'm in my first year on my own“ (selbstständig seit Juli 2026, thomas-hefke-os CLAUDE.md). Nichts erfinden, keine Geschichten über Thomas ohne Quelle.
 - Trial Reels (Trial-Session, `content-factory/varianten/thefke/README.md`): Zehn Zitate aus 50 Sentences (21.11.), 25 Sentences Your Boss Should Read (28.11.) und 25 Sentences About Money (05.12.) laufen vorher als Trial Reels, nur für Nicht-Follower. Diese drei Karussells nicht verschieben.
 - 19.11.: Autoren nach Hinweis Thomas angepasst (Criado Perez ohne Akzent, Mitautoren bei Noise, Freakonomics, It Doesn't Have to Be Crazy at Work, Never Split the Difference, American Prometheus, Adam Grant ohne „M.“). 30 noch nicht gepostete Plan-Posts neu gerendert, nur die Autorenzeilen haben sich geändert.
 - Eingefügt wurde mit einem Session-Skript ohne Verschieben. `tools/plan_insert.py` kennt nur einen Post pro Tag, rückt alles nach und verliert „abends“ in der Tabelle.

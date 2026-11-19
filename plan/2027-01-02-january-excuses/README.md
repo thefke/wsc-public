@@ -1,0 +1,35 @@
+# Sa 02.01. · January excuses, 20 books
+
+Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+
+## Caption
+
+```
+“I'll start in February.”
+It's January 2 and the excuses are already back.
+
+20 January excuses.
+20 books from my shelf that answer them.
+
+10 for body and mind.
+10 for work and money.
+
+Morgan Housel in The Psychology of Money:
+“His skill is investing, but his secret is time. That’s how compounding works.”
+Spring is a few months of compounding you skip.
+
+Send this to the friend who already pushed it to February.
+
+Which excuse is yours?
+
+Books from this post: link in bio.
+
+#bookstagram #bookrecommendations #books
+```
+
+## Slides
+
+![01.jpg](01.jpg)
+![02.jpg](02.jpg)
+![03.jpg](03.jpg)
+![04.jpg](04.jpg)

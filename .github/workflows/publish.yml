@@ -8,10 +8,11 @@ on:
     - cron: '7 * * * *'   # jede Stunde zu Minute 7, GitHub startet Cron-Läufe oft einige Minuten später
   workflow_dispatch:
     inputs:
-      dry_run:
-        description: 'Nur anzeigen, was fällig ist'
-        type: boolean
-        default: true
+      modus:
+        description: 'anzeigen: nur fällige Beiträge zeigen. pruefen: Container des nächsten Beitrags bauen, nichts posten. posten: nächsten fälligen Beitrag posten.'
+        type: choice
+        options: [anzeigen, pruefen, posten]
+        default: anzeigen
 
 permissions:
   contents: write
@@ -35,13 +36,14 @@ jobs:
         env:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
-          DRY_RUN: ${{ github.event.inputs.dry_run }}
+          MODUS: ${{ github.event.inputs.modus }}
         run: |
-          if [ "$DRY_RUN" = "true" ]; then
-            python3 tools/publish.py
-          else
-            python3 tools/publish.py --publish
-          fi
+          # Zeitplan-Läufe haben keinen Modus und posten.
+          case "${MODUS:-posten}" in
+            anzeigen) python3 tools/publish.py ;;
+            pruefen)  python3 tools/publish.py --check ;;
+            posten)   python3 tools/publish.py --publish ;;
+          esac
 
       - name: Gepostetes nach posted/ committen
         run: |
@@ -52,5 +54,12 @@ jobs:
             echo "nichts zu committen"
           else
             git commit -m "posted: $(ls -t posted | head -1)"
-            git push
+            # main bekommt stündlich Commits (Workflow Live). Ohne Rebase scheitert der Push,
+            # der Beitrag bliebe in queue/ und würde beim nächsten Lauf ein zweites Mal gepostet.
+            for i in 1 2 3 4 5; do
+              git pull --rebase -q origin main && git push && exit 0
+              sleep $((i * 10))
+            done
+            echo "::error::Push nach dem Posten gescheitert. queue/ von Hand bereinigen, sonst wird doppelt gepostet."
+            exit 1
           fi

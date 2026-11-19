@@ -6,6 +6,19 @@ Ein Beitrag ist ein Ordner in queue/ mit zwei Dateien:
         post.json    {"publish_at": "2026-10-05T07:30:00+02:00", "caption": "..."}
         image.jpg    JPEG, 1080 px breit. Instagram nimmt nur JPEG.
 
+Karussell (seit 19.11.2026): post.json mit "images", einer Liste von Pfaden
+relativ zum Repo-Root, meist die Slides eines Plan-Ordners. Dann liegt in
+queue/ nur post.json, die Bilder bleiben in plan/. Anlegen mit
+tools/queue_plan.py.
+
+    queue/2026-11-23-0812-after-zero-to-one/
+        post.json    {"publish_at": "...", "caption": "...", "images": ["plan/2026-11-23-after-zero-to-one/01.jpg", ...]}
+
+Karussell: je Bild ein Container mit is_carousel_item, dann ein Container mit
+media_type CAROUSEL und children, dann media_publish. Höchstens 20 Bilder.
+Musik kann die API an Karussells nicht hängen (Audio API nur für Reels und nur
+mit Facebook-Login, geprüft 19.11.2026).
+
 Ablauf pro fälligem Beitrag, über die Instagram API mit Instagram-Login:
 
 1. Media-Container anlegen: POST /{ig-user-id}/media mit image_url und caption.
@@ -32,6 +45,7 @@ Umgebung:
 Aufruf:
     python3 tools/publish.py            # zeigt nur, was fällig ist
     python3 tools/publish.py --publish  # postet den nächsten fälligen Beitrag
+    python3 tools/publish.py --check    # baut den Container des nächsten Beitrags, postet nicht
 """
 import json
 import os
@@ -57,21 +71,30 @@ def due_posts(now: datetime) -> list[tuple[datetime, Path, dict]]:
         at = datetime.fromisoformat(meta['publish_at'])
         if at.tzinfo is None:
             raise ValueError(f'{d.name}: publish_at braucht eine Zeitzone, z. B. +02:00')
-        if not (d / meta.get('image', 'image.jpg')).exists():
-            raise FileNotFoundError(f'{d.name}: Bild fehlt')
+        for rel in media_paths(d, meta):
+            if not (REPO / rel).exists():
+                raise FileNotFoundError(f'{d.name}: Bild fehlt: {rel}')
+        if len(meta.get('images', [])) > 20:
+            raise ValueError(f'{d.name}: höchstens 20 Bilder je Karussell')
         if at <= now:
             out.append((at, d, meta))
     return sorted(out, key=lambda x: x[0])
 
 
-def image_url(folder: Path, meta: dict) -> str:
+def media_paths(folder: Path, meta: dict) -> list[str]:
+    """Bildpfade relativ zum Repo-Root: Karussell aus "images", sonst das Einzelbild im Ordner."""
+    if meta.get('images'):
+        return list(meta['images'])
+    return [(folder.relative_to(REPO) / meta.get('image', 'image.jpg')).as_posix()]
+
+
+def url_for(rel: str) -> str:
     base = os.environ.get('IMAGE_BASE_URL')
     if not base:
         repo = os.environ['GITHUB_REPOSITORY']
         ref = os.environ.get('GITHUB_SHA', 'main')
         base = f'https://raw.githubusercontent.com/{repo}/{ref}'
-    rel = folder.relative_to(REPO) / meta.get('image', 'image.jpg')
-    return f'{base.rstrip("/")}/{urllib.parse.quote(rel.as_posix())}'
+    return f'{base.rstrip("/")}/{urllib.parse.quote(rel)}'
 
 
 def call(method: str, path: str, params: dict) -> dict:
@@ -90,21 +113,42 @@ def call(method: str, path: str, params: dict) -> dict:
         raise RuntimeError(f'{method} {path}: HTTP {e.code} {body}') from None
 
 
-def publish(folder: Path, meta: dict) -> str:
-    ig = os.environ['IG_USER_ID']
-    url = image_url(folder, meta)
-    print(f'  Bild: {url}', flush=True)
-    container = call('POST', f'{ig}/media', {'image_url': url, 'caption': meta['caption']})['id']
+def wait_finished(container: str) -> None:
     for _ in range(30):
         status = call('GET', container, {'fields': 'status_code'}).get('status_code')
         if status == 'FINISHED':
-            break
+            return
         if status in ('ERROR', 'EXPIRED'):
             raise RuntimeError(f'Container {container}: {status}')
         time.sleep(5)
+    raise RuntimeError(f'Container {container}: nach 150 s nicht fertig')
+
+
+def build_container(folder: Path, meta: dict) -> str:
+    """Legt den Container an und wartet, bis er fertig ist. Veröffentlicht nichts."""
+    ig = os.environ['IG_USER_ID']
+    paths = media_paths(folder, meta)
+    if not meta.get('images'):
+        url = url_for(paths[0])
+        print(f'  Bild: {url}', flush=True)
+        container = call('POST', f'{ig}/media', {'image_url': url, 'caption': meta['caption']})['id']
     else:
-        raise RuntimeError(f'Container {container}: nach 150 s nicht fertig')
-    return call('POST', f'{ig}/media_publish', {'creation_id': container})['id']
+        children = []
+        for rel in paths:
+            url = url_for(rel)
+            print(f'  Slide: {url}', flush=True)
+            child = call('POST', f'{ig}/media', {'image_url': url, 'is_carousel_item': 'true'})['id']
+            wait_finished(child)
+            children.append(child)
+        container = call('POST', f'{ig}/media', {
+            'media_type': 'CAROUSEL', 'children': ','.join(children), 'caption': meta['caption']})['id']
+    wait_finished(container)
+    return container
+
+
+def publish(folder: Path, meta: dict) -> str:
+    container = build_container(folder, meta)
+    return call('POST', f"{os.environ['IG_USER_ID']}/media_publish", {'creation_id': container})['id']
 
 
 def main():
@@ -114,6 +158,17 @@ def main():
     print(f'fällig: {len(due)}, wartet noch: {waiting}')
     for at, d, _ in due:
         print(f'  {d.name}  (geplant {at.isoformat()})')
+    if '--check' in sys.argv:
+        # Baut den Container für den nächsten Beitrag in queue/, fällig oder nicht, und
+        # veröffentlicht nichts. Prüft Token, Bild-URLs und Karussell. Container verfallen nach 24 h.
+        nxt = sorted(p for p in QUEUE.iterdir() if p.is_dir())
+        if not nxt:
+            print('queue/ ist leer, nichts zu prüfen')
+            return 0
+        meta = json.loads((nxt[0] / 'post.json').read_text(encoding='utf-8'))
+        print(f'\nprüfe {nxt[0].name} ({len(media_paths(nxt[0], meta))} Bilder), ohne zu veröffentlichen', flush=True)
+        print(f'Container fertig: {build_container(nxt[0], meta)}')
+        return 0
     if not due or '--publish' not in sys.argv:
         return 0
 

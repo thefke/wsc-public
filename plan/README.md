@@ -67,19 +67,26 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Sa 21.11. | [Books every marketer should steal from](2026-11-21-marketers-steal-from/) | Karussell, abends |
 | So 22.11. | [10 Books in 10 Words](2026-11-22-10-books-10-words/) | Karussell |
 | So 22.11. | [The shelf of a first-time founder](2026-11-22-first-time-founder-shelf/) | Karussell, abends |
+| Mo 23.11. | [Liked Zero to One? Read these next](2026-11-23-after-zero-to-one/) | Karussell, früh, automatisch |
 | Mo 23.11. | [Books for clarity in your head](2026-11-23-clarity-in-your-head/) | Karussell, abends |
 | Mo 23.11. | [Reading Ladders, Part 2](2026-11-23-reading-ladders-2/) | Karussell |
+| Di 24.11. | [Liked Never Split the Difference? Read these next](2026-11-24-after-never-split/) | Karussell, früh, automatisch |
 | Di 24.11. | [Tech books older than the hype](2026-11-24-older-than-the-hype/) | Karussell, abends |
 | Di 24.11. | [3 books. 1 psychologist](2026-11-24-three-books-one-psychologist/) | Karussell |
 | Mi 25.11. | [22 Marketing Problems, 22 Books](2026-11-25-22-marketing-problems/) | Karussell |
 | Mi 25.11. | [Books for fast decision makers](2026-11-25-fast-decisions/) | Karussell, abends |
+| Mi 25.11. | [Books for people who hate meetings](2026-11-25-hate-meetings/) | Karussell, früh, automatisch |
+| Do 26.11. | [Liked Factfulness? Read these next](2026-11-26-after-factfulness/) | Karussell, früh, automatisch |
 | Do 26.11. | [Books I want my kids to read one day](2026-11-26-books-for-my-kids/) | Karussell, abends |
 | Do 26.11. | [Raising Kids? 20 Questions](2026-11-26-parent-questions/) | Karussell |
 | Fr 27.11. | [Learn from the Greatest: Football](2026-11-27-greatest-football/) | Karussell |
+| Fr 27.11. | [Just got laid off? Read one first](2026-11-27-just-laid-off/) | Karussell, früh, automatisch |
 | Fr 27.11. | [Books that reignite your curiosity](2026-11-27-reignite-curiosity/) | Karussell, abends |
 | Sa 28.11. | [25 Sentences Your Boss Should Read](2026-11-28-25-sentences-leadership/) | Karussell |
+| Sa 28.11. | [Liked Extreme Ownership? Read these next](2026-11-28-after-extreme-ownership/) | Karussell, früh, automatisch |
 | Sa 28.11. | [The night before a big decision. Read one first](2026-11-28-night-before-decision/) | Karussell, abends |
 | So 29.11. | [Stuck on a hard problem? Try the opposite of more input](2026-11-29-dmn-walk/) | Karussell |
+| So 29.11. | [Books for a long train ride](2026-11-29-long-train-ride/) | Karussell, früh, automatisch |
 | So 29.11. | [For people who start and never finish](2026-11-29-start-never-finish/) | Karussell, abends |
 | Mo 30.11. | [Learn from the Greatest: Running](2026-11-30-greatest-running/) | Karussell |
 | Mo 30.11. | [Books for the scarcest thing you have: time](2026-11-30-time-scarcest-asset/) | Karussell, abends |
@@ -183,6 +190,7 @@ Hinweise:
 - Nachschub ab 10.12. (Vorschlag 16.11., bestätigt Thomas 18.11.): 53 Slots bis 08.01. mit sechs gewählten Themen, drei Geschenklisten (12., 19., 26.12.) und Fortsetzungen der Reihen. Tabelle und Buchlisten im Chat vom 16.11., Session https://claude.ai/code/session_012MyTsSKr7TZLj9k5zoRET1. „How 10 companies almost died“ läuft als „10 companies. How they handled failure“, weil der Vault die Beinahe-Pleite nur bei vier Firmen belegt.
 - Stand 19.11.: Plan bis Fr 08.01. voll, beide Slots. Leer nur So 20.12. abends („My 10 best books of 2026“, wartet auf Thomas' Titel). „How They Really Work, Part 3“ (07.01.) nur, wenn Part 2 (11.12.) gut läuft, sonst tauschen. Part 3 hat 14 Firmen, mehr gibt der Vault mit Beleg nicht her. „My 10 best books of 2026“ (20.12.) wartet auf zehn Titel von Thomas, für 2026 gibt es weder im Vault noch in books.json ein Lesedatum.
 - Ab 18.11.: höchstens drei Hashtags je Post (Thomas, 18.11.2026). Standard `#bookstagram #bookrecommendations #books`, Story-Karussells behalten ihre ersten drei. Umgestellt in allen Plan-Posts, die laut live.json noch nicht gepostet sind, und in `tools/plan_insert.py`. Gepostete Posts bleiben, wie sie sind.
+- Ab Mo 23.11.: drei Karussells am Tag (Thomas, 19.11.2026, Option C). Früh-Slot 07:30 bis 09:30, Uhrzeit je Tag gewürfelt, wird automatisch ohne Musik gepostet (`queue/`, `tools/publish.py`, Workflow Publish stündlich). Mittag und Abend postet Thomas von Hand mit der empfohlenen lizenzfreien Musik. Die Audio API hängt Musik nur an Reels und nur mit Facebook-Login, nicht an Karussells (Meta-Doku geprüft 19.11.2026). Neue Früh-Posts: `tools/plan_add.py` mit Slot `frueh`, dann `tools/queue_plan.py --slot frueh --apply`. Nach zwei Wochen Views und Saves der Früh-Posts gegen die von Hand vergleichen. Die Uhrzeit unterscheidet sich mit, die Zahl ist also ein Richtwert.
 - Trial Reels (Trial-Session, `content-factory/varianten/thefke/README.md`): Zehn Zitate aus 50 Sentences (21.11.), 25 Sentences Your Boss Should Read (28.11.) und 25 Sentences About Money (05.12.) laufen vorher als Trial Reels, nur für Nicht-Follower. Diese drei Karussells nicht verschieben.
 - 19.11.: Autoren nach Hinweis Thomas angepasst (Criado Perez ohne Akzent, Mitautoren bei Noise, Freakonomics, It Doesn't Have to Be Crazy at Work, Never Split the Difference, American Prometheus, Adam Grant ohne „M.“). 30 noch nicht gepostete Plan-Posts neu gerendert, nur die Autorenzeilen haben sich geändert.
 - Eingefügt wurde mit einem Session-Skript ohne Verschieben. `tools/plan_insert.py` kennt nur einen Post pro Tag, rückt alles nach und verliert „abends“ in der Tabelle.

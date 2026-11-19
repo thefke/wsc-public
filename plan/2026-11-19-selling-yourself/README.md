@@ -1,6 +1,6 @@
-# Mo 07.12. · Selling yourself feels awkward? 20 Problems, 20 Books
+# Do 19.11. · Selling yourself feels awkward? 20 Problems, 20 Books
 
-Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+Abend-Slot. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

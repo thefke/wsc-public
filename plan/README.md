@@ -61,6 +61,7 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | Mi 18.11. | [Old books that are still right](2026-11-18-old-ideas-still-right/) | Karussell, abends |
 | Do 19.11. | [Books that give you perspective](2026-11-19-give-you-perspective/) | Karussell, abends |
 | Do 19.11. | [Still polishing one perfect post?](2026-11-19-one-perfect-post/) | Karussell |
+| Do 19.11. | [Selling yourself feels awkward? 20 Problems, 20 Books](2026-11-19-selling-yourself/) | Karussell, abends |
 | Fr 20.11. | [Books I read after a hard stretch](2026-11-20-after-a-hard-stretch/) | Karussell, abends |
 | Fr 20.11. | [Learn from the greatest: Music & Film](2026-11-20-greatest-music-film/) | Karussell |
 | Sa 21.11. | [50 Sentences, 50 Books](2026-11-21-50-sentences/) | Karussell |
@@ -111,7 +112,6 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 06.12. | [Turning 30? 20 Problems, 20 Books](2026-12-06-turning-30/) | Karussell, früh, automatisch |
 | Mo 07.12. | [Liked Sapiens? Read these next](2026-12-07-after-sapiens/) | Karussell |
 | Mo 07.12. | [Learn from the Greatest: Founders](2026-12-07-greatest-founders/) | Karussell, abends |
-| Mo 07.12. | [Selling yourself feels awkward? 20 Problems, 20 Books](2026-12-07-selling-yourself/) | Karussell, früh, automatisch |
 | Di 08.12. | [15 Sales Problems, 15 Books](2026-12-08-15-sales-problems/) | Karussell, abends |
 | Di 08.12. | [50 Sentences, 50 Books, Part 2](2026-12-08-50-sentences-2/) | Karussell |
 | Di 08.12. | [The shelf of a solo founder](2026-12-08-solo-founder-shelf/) | Karussell, früh, automatisch |

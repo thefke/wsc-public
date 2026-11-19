@@ -89,19 +89,26 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 29.11. | [Books for a long train ride](2026-11-29-long-train-ride/) | Karussell, früh, automatisch |
 | So 29.11. | [For people who start and never finish](2026-11-29-start-never-finish/) | Karussell, abends |
 | Mo 30.11. | [Learn from the Greatest: Running](2026-11-30-greatest-running/) | Karussell |
+| Mo 30.11. | [Just got promoted? 20 Problems, 20 Books](2026-11-30-just-promoted/) | Karussell, früh, automatisch |
 | Mo 30.11. | [Books for the scarcest thing you have: time](2026-11-30-time-scarcest-asset/) | Karussell, abends |
 | Di 01.12. | [Read this before day one as a CEO](2026-12-01-ceo-first-day/) | Karussell, abends |
 | Di 01.12. | [Reading Ladders, Part 3](2026-12-01-reading-ladders-3/) | Karussell |
+| Di 01.12. | [Turning 40? 20 Problems, 20 Books](2026-12-01-turning-40/) | Karussell, früh, automatisch |
 | Mi 02.12. | [10 Books in 10 Words, Part 2](2026-12-02-10-books-10-words-2/) | Karussell |
 | Mi 02.12. | [Books for ambitious people](2026-12-02-ambitious-people/) | Karussell, abends |
+| Mi 02.12. | [First year as a founder? 20 Problems, 20 Books](2026-12-02-first-year-founder/) | Karussell, früh, automatisch |
 | Do 03.12. | [What AI won't take from you](2026-12-03-ai-wont-take/) | Karussell, abends |
+| Do 03.12. | [New parent? 20 Questions, 20 Books](2026-12-03-new-parent/) | Karussell, früh, automatisch |
 | Do 03.12. | [Your posts keep getting shorter, sharper, louder?](2026-12-03-who-picks-the-topic/) | Karussell |
+| Fr 04.12. | [Back after a long break? 20 Problems, 20 Books](2026-12-04-back-from-leave/) | Karussell, früh, automatisch |
 | Fr 04.12. | [Learn from the Greatest: Tennis](2026-12-04-greatest-tennis/) | Karussell, abends |
 | Fr 04.12. | [10 questions. 20 books. Zero agreement](2026-12-04-two-answers/) | Karussell |
 | Sa 05.12. | [25 Sentences About Money](2026-12-05-25-sentences-money/) | Karussell, abends |
 | Sa 05.12. | [One book for every person on your list](2026-12-05-gift-guide/) | Karussell |
+| Sa 05.12. | [Moved to a new city? 20 Problems, 20 Books](2026-12-05-moving-city/) | Karussell, früh, automatisch |
 | So 06.12. | [Why we forgive people. Not machines](2026-12-06-algorithm-aversion/) | Karussell |
 | So 06.12. | [A Sunday with no plans. Read slowly](2026-12-06-sunday-no-plans/) | Karussell, abends |
+| So 06.12. | [Turning 30? 20 Problems, 20 Books](2026-12-06-turning-30/) | Karussell, früh, automatisch |
 | Mo 07.12. | [Liked Sapiens? Read these next](2026-12-07-after-sapiens/) | Karussell |
 | Mo 07.12. | [Learn from the Greatest: Founders](2026-12-07-greatest-founders/) | Karussell, abends |
 | Di 08.12. | [15 Sales Problems, 15 Books](2026-12-08-15-sales-problems/) | Karussell, abends |

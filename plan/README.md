@@ -111,18 +111,25 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 06.12. | [Turning 30? 20 Problems, 20 Books](2026-12-06-turning-30/) | Karussell, früh, automatisch |
 | Mo 07.12. | [Liked Sapiens? Read these next](2026-12-07-after-sapiens/) | Karussell |
 | Mo 07.12. | [Learn from the Greatest: Founders](2026-12-07-greatest-founders/) | Karussell, abends |
+| Mo 07.12. | [Selling yourself feels awkward? 20 Problems, 20 Books](2026-12-07-selling-yourself/) | Karussell, früh, automatisch |
 | Di 08.12. | [15 Sales Problems, 15 Books](2026-12-08-15-sales-problems/) | Karussell, abends |
 | Di 08.12. | [50 Sentences, 50 Books, Part 2](2026-12-08-50-sentences-2/) | Karussell |
+| Di 08.12. | [The shelf of a solo founder](2026-12-08-solo-founder-shelf/) | Karussell, früh, automatisch |
 | Mi 09.12. | [Liked Shoe Dog? Read these next](2026-12-09-after-shoe-dog/) | Karussell, abends |
+| Mi 09.12. | [Building a personal brand? 20 Problems, 20 Books](2026-12-09-personal-brand/) | Karussell, früh, automatisch |
 | Mi 09.12. | [Which AI course should I take?](2026-12-09-which-ai-course/) | Karussell |
+| Do 10.12. | [Liked Show Your Work? Read these next](2026-12-10-after-show-your-work/) | Karussell, früh, automatisch |
 | Do 10.12. | [Learn from the Greatest: Cycling](2026-12-10-greatest-cycling/) | Karussell |
 | Do 10.12. | [Books that sound boring. They aren't, Part 2](2026-12-10-sound-boring-arent-2/) | Karussell, abends |
 | Fr 11.12. | [Liked The Psychology of Money? Read these next](2026-12-11-after-psychology-of-money/) | Karussell, abends |
 | Fr 11.12. | [How They Really Work: 20 More Companies](2026-12-11-inside-the-companies-2/) | Karussell |
+| Fr 11.12. | [Afraid to raise your prices? 15 Problems, 15 Books](2026-12-11-raise-your-prices/) | Karussell, früh, automatisch |
 | Sa 12.12. | [50 Sentences, 50 Books, Part 3](2026-12-12-50-sentences-3/) | Karussell |
+| Sa 12.12. | [Creator business? 20 Problems, 20 Books](2026-12-12-creator-business/) | Karussell, früh, automatisch |
 | Sa 12.12. | [Books for the person who has everything](2026-12-12-gift-has-everything/) | Karussell, abends |
 | So 13.12. | [10 Books in 10 Words, Part 3](2026-12-13-10-books-10-words-3/) | Karussell |
 | So 13.12. | [Learn from the Greatest: Coaches](2026-12-13-greatest-coaches/) | Karussell, abends |
+| So 13.12. | [Books that teach you to sell without being salesy](2026-12-13-sell-without-salesy/) | Karussell, früh, automatisch |
 | Mo 14.12. | [Books for people who think they're bad with numbers](2026-12-14-bad-with-numbers/) | Karussell, abends |
 | Mo 14.12. | [10 companies. How they handled failure](2026-12-14-companies-handled-failure/) | Karussell |
 | Di 15.12. | [Biographies that read like thrillers, Part 2](2026-12-15-read-like-thrillers-2/) | Karussell, abends |

@@ -36,9 +36,11 @@ ausgefallen sind, kommt der Rest in den folgenden Stunden. So entsteht nie ein
 Schwall von Posts.
 
 Umgebung:
-    IG_USER_ID       Instagram-User-ID des Creator-Kontos
-    IG_ACCESS_TOKEN  langlebiger Token, erneuert von refresh-token.yml
-    IG_API           Basis-URL, Standard https://graph.instagram.com
+    META_TOKEN       Systemnutzer-Token aus dem Business Manager (wie Workflow Live),
+                     geht als Header raus. Die Konto-ID kommt aus me/accounts.
+    IG_USERNAME      Konto, Standard thefke
+    IG_USER_ID, IG_ACCESS_TOKEN  nur ohne META_TOKEN (Instagram-Login, nie gültig gewesen)
+    IG_API           Basis-URL, Standard graph.facebook.com/v27.0 mit META_TOKEN
     IMAGE_BASE_URL   Basis für image_url, Standard raw.githubusercontent.com
                      mit GITHUB_REPOSITORY und GITHUB_SHA
 
@@ -61,7 +63,12 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 QUEUE = REPO / 'queue'
 POSTED = REPO / 'posted'
-API = os.environ.get('IG_API', 'https://graph.instagram.com').rstrip('/')
+# Seit 19.11.2026 über das Systemnutzer-Token aus dem Business Manager (Secret META_TOKEN,
+# dasselbe wie im Workflow Live) und graph.facebook.com. Der Instagram-Login-Token
+# IG_ACCESS_TOKEN war nie gültig (Refresh Token scheitert seit 01.10.2026) und bleibt nur Rückfall.
+META = bool(os.environ.get('META_TOKEN'))
+API = os.environ.get('IG_API', 'https://graph.facebook.com/v27.0' if META else 'https://graph.instagram.com').rstrip('/')
+KONTO = os.environ.get('IG_USERNAME', 'thefke')
 
 
 def due_posts(now: datetime) -> list[tuple[datetime, Path, dict]]:
@@ -98,13 +105,17 @@ def url_for(rel: str) -> str:
 
 
 def call(method: str, path: str, params: dict) -> dict:
-    params = {**params, 'access_token': os.environ['IG_ACCESS_TOKEN']}
+    headers = {'User-Agent': 'wsc-public-publish'}
+    if META:
+        headers['Authorization'] = f"Bearer {os.environ['META_TOKEN']}"  # nie in die URL
+    else:
+        params = {**params, 'access_token': os.environ['IG_ACCESS_TOKEN']}
     data = urllib.parse.urlencode(params).encode()
     url = f'{API}/{path}'
     if method == 'GET':
-        req = urllib.request.Request(f'{url}?{data.decode()}')
+        req = urllib.request.Request(f'{url}?{data.decode()}' if params else url, headers=headers)
     else:
-        req = urllib.request.Request(url, data=data, method='POST')
+        req = urllib.request.Request(url, data=data, method='POST', headers=headers)
     try:
         with urllib.request.urlopen(req, timeout=60) as res:
             return json.loads(res.read().decode('utf-8'))
@@ -124,9 +135,29 @@ def wait_finished(container: str) -> None:
     raise RuntimeError(f'Container {container}: nach 150 s nicht fertig')
 
 
+_IG_ID = None
+
+
+def ig_user_id() -> str:
+    """Mit META_TOKEN die ID des Business-Kontos @thefke aus me/accounts, sonst IG_USER_ID."""
+    global _IG_ID
+    if _IG_ID:
+        return _IG_ID
+    if not META:
+        _IG_ID = os.environ['IG_USER_ID']
+        return _IG_ID
+    seiten = call('GET', 'me/accounts', {'fields': 'instagram_business_account{id,username}', 'limit': 50})
+    for s in seiten.get('data', []):
+        ig = s.get('instagram_business_account') or {}
+        if ig.get('username') == KONTO:
+            _IG_ID = ig['id']
+            return _IG_ID
+    raise RuntimeError(f'Das Token sieht @{KONTO} nicht')
+
+
 def build_container(folder: Path, meta: dict) -> str:
     """Legt den Container an und wartet, bis er fertig ist. Veröffentlicht nichts."""
-    ig = os.environ['IG_USER_ID']
+    ig = ig_user_id()
     paths = media_paths(folder, meta)
     if not meta.get('images'):
         url = url_for(paths[0])
@@ -148,7 +179,7 @@ def build_container(folder: Path, meta: dict) -> str:
 
 def publish(folder: Path, meta: dict) -> str:
     container = build_container(folder, meta)
-    return call('POST', f"{os.environ['IG_USER_ID']}/media_publish", {'creation_id': container})['id']
+    return call('POST', f'{ig_user_id()}/media_publish', {'creation_id': container})['id']
 
 
 def main():

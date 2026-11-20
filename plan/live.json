@@ -1,7 +1,13 @@
 {
- "stand": "2026-11-20T08:41:31Z",
+ "stand": "2026-11-20T17:53:50Z",
  "konto": "thefke",
  "posts": [
+  {
+   "slug": "one-perfect-post",
+   "media_id": "17992982532076872",
+   "posted_at": "2026-11-20T16:10:17Z",
+   "permalink": "https://www.instagram.com/p/Df-DXvgDnQ7/"
+  },
   {
    "slug": "give-you-perspective",
    "media_id": "18155502166535957",
@@ -340,6 +346,24 @@
   }
  ],
  "ohne_plan": [
+  {
+   "media_id": "17909584806605676",
+   "posted_at": "2026-11-20T17:13:33Z",
+   "permalink": "https://www.instagram.com/reel/Df-KkFOjXUH/",
+   "caption": "Send this to the friend who says: “Great book. Can't remembe"
+  },
+  {
+   "media_id": "18110449094575340",
+   "posted_at": "2026-11-20T13:14:08Z",
+   "permalink": "https://www.instagram.com/reel/Df9vJpyic_k/",
+   "caption": "10 truths that hurt. Backed by 10 books. Save this for your "
+  },
+  {
+   "media_id": "17881762275633129",
+   "posted_at": "2026-11-20T09:13:49Z",
+   "permalink": "https://www.instagram.com/reel/Df9TpvHlAME/",
+   "caption": "A book about trading signals. The Medallion fund averaged 66"
+  },
   {
    "media_id": "18352223743252612",
    "posted_at": "2026-11-19T15:13:19Z",

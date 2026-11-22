@@ -5,8 +5,8 @@ Karussell, 12 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-10 books.
-10 words each.
+No time for 10 books?
+Read 100 words.
 
 The whole idea, nothing else.
 Read the one that makes you stop.

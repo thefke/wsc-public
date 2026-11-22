@@ -5,8 +5,8 @@ Karussell, 12 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-10 more books.
-10 words each.
+No time for 10 more books?
+Read 100 words.
 
 Part 3.
 Goggins, Holiday, Gladwell, Marcus Aurelius and six more.

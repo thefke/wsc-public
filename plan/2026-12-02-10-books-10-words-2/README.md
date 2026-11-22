@@ -5,8 +5,8 @@ Karussell, 12 Slides. Beim Hochladen 4:5 wählen.
 ## Caption
 
 ```
-10 more books.
-10 words each.
+No time for 10 more books?
+Read 100 words.
 
 Name a book in the comments.
 I'll sum it up in 10 words.

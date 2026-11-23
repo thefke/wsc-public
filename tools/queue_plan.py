@@ -9,18 +9,16 @@ Je Plan-Ordner entsteht queue/<datum>-<HHMM>-<slug>/post.json mit Caption aus
 caption.txt und "images" mit den Pfaden der Slides in plan/. Die Bilder werden
 nicht kopiert, publish.py lädt sie über raw.githubusercontent.com.
 
-Uhrzeit: Thomas, 19.11.2026, „bisschen zeitlich versetzt jeden Tag“. Je Tag
-eine andere Minute im Fenster, gewürfelt mit dem Ordnernamen als Startwert.
-Ein zweiter Lauf ergibt also dieselbe Zeit. Standardfenster 07:30 bis 09:30
-Berliner Zeit (Früh-Slot, Option C vom 19.11.2026: früh automatisch ohne Musik,
-mittags und abends von Hand mit Musik).
+Uhrzeit: feste Zeit je Wochentag im Fenster 07:30 bis 09:30 Berliner Zeit (ZEITEN,
+Thomas, 23.11.2026). Je Wochentag startet eine geplante Aufgabe in Claude den Workflow
+Publish eine Minute danach. Früh-Slot nach Option C vom 19.11.2026: früh automatisch
+ohne Musik, mittags und abends von Hand mit Musik.
 
 Prüft vor dem Anlegen: Slides vorhanden, höchstens 20, JPEG, Seitenverhältnis
 zwischen 4:5 und 1,91:1, Caption höchstens 2.200 Zeichen und 30 Hashtags,
 Ordner noch nicht in queue/ oder posted/.
 """
 import json
-import random
 import re
 import sys
 from datetime import date, datetime, time, timedelta
@@ -32,15 +30,18 @@ from PIL import Image
 REPO = Path(__file__).resolve().parent.parent
 PLAN, QUEUE, POSTED = REPO / 'plan', REPO / 'queue', REPO / 'posted'
 BERLIN = ZoneInfo('Europe/Berlin')
-FENSTER = (time(7, 30), time(9, 30))
 CAPTION_MAX, TAGS_MAX, BILDER_MAX = 2200, 30, 20
 
 
-def zeitpunkt(name: str, fenster=FENSTER) -> datetime:
+# Feste Uhrzeit je Wochentag (Thomas, 23.11.2026): Mo bis So. Der Zeitplan von GitHub ist
+# unzuverlässig (Läufe nur alle 6 bis 9 Stunden), deshalb startet je Wochentag eine geplante
+# Aufgabe in Claude den Workflow Publish zur selben Uhrzeit plus eine Minute.
+ZEITEN = {0: time(8, 10), 1: time(7, 45), 2: time(8, 25), 3: time(7, 35), 4: time(7, 55), 5: time(8, 40), 6: time(9, 5)}
+
+
+def zeitpunkt(name: str) -> datetime:
     tag = date.fromisoformat(name[:10])
-    start = datetime.combine(tag, fenster[0], BERLIN)
-    spanne = int((datetime.combine(tag, fenster[1]) - datetime.combine(tag, fenster[0])).total_seconds() // 60)
-    return start + timedelta(minutes=random.Random(name).randint(0, spanne))
+    return datetime.combine(tag, ZEITEN[tag.weekday()], BERLIN)
 
 
 def pruefen(ordner: Path) -> tuple[list[str], str]:

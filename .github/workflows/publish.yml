@@ -1,4 +1,4 @@
-# Postet stündlich den nächsten fälligen Beitrag aus queue/ auf Instagram.
+# Postet den nächsten fälligen Beitrag aus queue/ auf Instagram, gestartet zur festen Uhrzeit je Wochentag.
 # Details: tools/publish.py
 
 name: Publish
@@ -39,6 +39,9 @@ jobs:
           META_TOKEN: ${{ secrets.META_TOKEN }}
           MODUS: ${{ github.event.inputs.modus }}
         run: |
+          # Neuesten Stand holen: Wartet dieser Lauf in der Concurrency-Gruppe auf einen anderen,
+          # ist dessen Beitrag schon in posted/ und wird nicht ein zweites Mal gepostet.
+          git pull -q --ff-only origin main
           # Zeitplan-Läufe haben keinen Modus und posten.
           case "${MODUS:-posten}" in
             anzeigen) python3 tools/publish.py ;;

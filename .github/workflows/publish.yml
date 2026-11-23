@@ -5,7 +5,9 @@ name: Publish
 
 on:
   schedule:
-    - cron: '7 * * * *'   # jede Stunde zu Minute 7, GitHub startet Cron-Läufe oft einige Minuten später
+    # Gepostet wird über geplante Aufgaben in Claude zur festen Uhrzeit je Wochentag (workflow_dispatch, Modus posten).
+    # Dieser Lauf holt nur nach, falls eine davon ausgefallen ist. GitHub startet Zeitplan-Läufe oft Stunden später.
+    - cron: '7 12 * * *'
   workflow_dispatch:
     inputs:
       modus:

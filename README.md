@@ -28,11 +28,10 @@ Einen geplanten Beitrag stoppen: Ordner aus `queue/` löschen und pushen.
 
 Secrets unter Settings, Secrets and variables, Actions:
 
-- `IG_USER_ID`: Instagram-User-ID des Creator-Kontos
-- `IG_ACCESS_TOKEN`: langlebiger Token aus der Meta-App
-- `GH_PAT`: Fine-grained Token nur für dieses Repo, Berechtigung „Secrets: Read and write". Den braucht `Refresh Token`, um den neuen Token zu speichern.
+- `META_TOKEN`: Systemnutzer-Token aus dem Business Manager. `Publish` und `Live` nutzen es, `Publish` findet die Konto-ID von @thefke selbst über `me/accounts` (seit 19.11.2026).
+- `IG_USER_ID`, `IG_ACCESS_TOKEN`, `GH_PAT`: nicht mehr gebraucht. Der Instagram-Login-Token war nie gültig, der Workflow `Refresh Token` ist am 23.11.2026 entfernt. Die Secrets löscht Thomas in den Einstellungen.
 
-Test ohne Risiko: Actions, `Publish`, „Run workflow" mit `dry_run`. Das zeigt nur an, was fällig ist.
+Test ohne Risiko: Actions, `Publish`, „Run workflow“ mit Modus `pruefen`. Das baut den nächsten Beitrag bei Instagram als Container, ohne ihn zu veröffentlichen.
 
 ## Live-Liste für die Bio-Link-Seite
 
@@ -40,4 +39,3 @@ Test ohne Risiko: Actions, `Publish`, „Run workflow" mit `dry_run`. Das zeigt 
 
 - Stündlich schreibt sie der Workflow `Live`, sobald das Secret `META_TOKEN` gesetzt ist (Systemnutzer-Token, einmal von Thomas eintragen). Bis dahin hilft nur ein Lauf von Hand in einer Claude-Session (`python3 tools/live.py`, der Proxy setzt dort das Token ein).
 - Fehlt ein Post in der Liste, zeigt die Seite ihn ab seinem Plandatum.
-- Der Instagram-Login-Token `IG_ACCESS_TOKEN` für `Publish` lässt sich seit Oktober nicht mehr erneuern (`Refresh Token` endet mit HTTP 400, `GH_PAT` fehlt). `Publish` postet darum nicht, solange er nicht neu erzeugt ist.

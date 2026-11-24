@@ -1,0 +1,8 @@
+58a3cc3d8e6b77e3 https://covers.openlibrary.org/b/isbn/9781947305076-L.jpg
+a4069dcc4f20678f https://covers.openlibrary.org/b/isbn/9781544501055-L.jpg
+b6417b727c11b81c https://covers.openlibrary.org/b/isbn/9783982108827-L.jpg
+2c8dfb96b93c08ad https://covers.openlibrary.org/b/isbn/9783648173794-L.jpg
+20c40c91d4452859 https://covers.openlibrary.org/b/isbn/9780135159521-L.jpg
+b10a81dd5d42e930 https://covers.openlibrary.org/b/id/8193589-L.jpg
+d4827dece2677772 https://covers.openlibrary.org/b/id/13750672-L.jpg
+cf7e4b9d3c19a913 https://covers.openlibrary.org/b/id/8853240-L.jpg

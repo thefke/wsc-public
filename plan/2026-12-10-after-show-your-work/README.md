@@ -1,6 +1,6 @@
 # Do 10.12. · Liked Show Your Work? Read these next
 
-Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
+Abend-Slot. Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

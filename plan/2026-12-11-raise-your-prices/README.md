@@ -1,6 +1,6 @@
 # Fr 11.12. · Afraid to raise your prices? 15 Problems, 15 Books
 
-Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

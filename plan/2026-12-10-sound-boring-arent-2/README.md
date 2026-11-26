@@ -1,6 +1,6 @@
 # Do 10.12. · Books that sound boring. They aren't, Part 2
 
-Abend-Slot. Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
+Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 9 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

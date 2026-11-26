@@ -1,6 +1,6 @@
 # Di 01.12. · Turning 40? 20 Problems, 20 Books
 
-Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

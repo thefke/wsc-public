@@ -14,6 +14,8 @@ import json, re, sys
 from pathlib import Path
 from PIL import Image
 import datetime as dt
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sprache  # deutsche Captions gehören auf @thomas.hefke, nie auf @thefke
 
 ROOT = Path(sys.argv[1]); P = ROOT / 'plan'
 spec = json.load(open(sys.argv[2])); APPLY = '--apply' in sys.argv
@@ -35,6 +37,7 @@ for s in spec:
     if n > 3: fehler.append(f"{s['date']}: dann {n} Posts am Tag")
     if not Path(s['src']).is_dir(): fehler.append(f"{s['src']} fehlt")
     if not Path(s['caption']).is_file(): fehler.append(f"{s['caption']} fehlt")
+    elif (m := sprache.meldung(s['caption'], Path(s['caption']).read_text(encoding='utf-8'))): fehler.append(m)
 if fehler:
     print('\n'.join(fehler)); sys.exit(1)
 

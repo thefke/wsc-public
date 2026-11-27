@@ -31,6 +31,10 @@ Ablauf pro fälligem Beitrag, über die Instagram API mit Instagram-Login:
 Die API kennt kein eigenes Planen, und ein Container verfällt nach 24 Stunden.
 Deshalb läuft dieses Skript stündlich und postet, was fällig ist.
 
+Sprachsperre (seit 27.11.2026): Ist die Caption deutsch, bricht das Skript ab,
+bevor es Instagram anfragt. Deutsche Texte gehören auf @thomas.hefke, nie auf
+@thefke (tools/sprache.py).
+
 Pro Lauf höchstens ein Beitrag. Hat sich etwas angestaut, weil Läufe
 ausgefallen sind, kommt der Rest in den folgenden Stunden. So entsteht nie ein
 Schwall von Posts.
@@ -59,6 +63,9 @@ import urllib.parse
 import urllib.request
 from datetime import datetime, timezone
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sprache  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 QUEUE = REPO / 'queue'
@@ -155,8 +162,20 @@ def ig_user_id() -> str:
     raise RuntimeError(f'Das Token sieht @{KONTO} nicht')
 
 
+def sprachsperre(folder: Path, meta: dict) -> None:
+    """Bricht ab, wenn die Caption deutsch ist. Läuft vor jeder Anfrage an Instagram."""
+    ort = f'{folder.relative_to(REPO).as_posix()}/post.json'
+    m = sprache.meldung(ort, meta.get('caption', ''))
+    if not m:
+        return
+    if os.environ.get('GITHUB_ACTIONS'):
+        print(f'::error file={ort}::{m}', flush=True)
+    raise SystemExit(f'ABBRUCH {m}\nNichts gepostet. Caption auf Englisch ändern oder den Ordner aus queue/ löschen.')
+
+
 def build_container(folder: Path, meta: dict) -> str:
     """Legt den Container an und wartet, bis er fertig ist. Veröffentlicht nichts."""
+    sprachsperre(folder, meta)
     ig = ig_user_id()
     paths = media_paths(folder, meta)
     if not meta.get('images'):
@@ -189,6 +208,11 @@ def main():
     print(f'fällig: {len(due)}, wartet noch: {waiting}')
     for at, d, _ in due:
         print(f'  {d.name}  (geplant {at.isoformat()})')
+    for d in sorted(p for p in QUEUE.iterdir() if p.is_dir()):
+        m = sprache.meldung(f'{d.relative_to(REPO).as_posix()}/post.json',
+                            json.loads((d / 'post.json').read_text(encoding='utf-8')).get('caption', ''))
+        if m:
+            print(f'FEHLER {m}')
     if '--check' in sys.argv:
         # Baut den Container für den nächsten Beitrag in queue/, fällig oder nicht, und
         # veröffentlicht nichts. Prüft Token, Bild-URLs und Karussell. Container verfallen nach 24 h.

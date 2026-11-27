@@ -4,12 +4,16 @@ Vor den Hashtags steht BIO: der Hinweis auf why-so-curious.com/en/ig/, dort steh
 import json, re, sys, shutil, subprocess, datetime as dt
 from pathlib import Path
 from PIL import Image
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sprache  # deutsche Captions gehören auf @thomas.hefke, nie auf @thefke
 P = Path(__file__).resolve().parent.parent / 'plan'; APPLY = '--apply' in sys.argv
 BIO = 'Books from this post: link in bio.'
 TAGS = '#bookstagram #bookrecommendations #books'  # höchstens drei Hashtags (Thomas, 18.11.2026)
 DOW = ['Mo', 'Di', 'Mi', 'Do', 'Fr', 'Sa', 'So']
 PIN = {'gift-guide': '2026-12-05', 'reading-plan-2027': '2026-12-30', 'end-of-year-reflection': '2026-12-31', 'first-week-of-january': '2027-01-01'}
 spec = json.load(open(sys.argv[1]))
+fehler = [m for s in spec if (m := sprache.meldung(s['caption'], Path(s['caption']).read_text(encoding='utf-8')))]
+if fehler: print('\n'.join(f'ABBRUCH {m}' for m in fehler)); sys.exit(1)
 start = min(s['date'] for s in spec)
 lab = lambda d: f'{DOW[d.weekday()]} {d:%d.%m.}'
 dirs = sorted(d for d in P.iterdir() if d.is_dir() and re.match(r'\d{4}-', d.name) and d.name[:10] >= start)

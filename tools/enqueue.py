@@ -12,6 +12,9 @@ Ohne Zeitzone gilt Europe/Berlin.
 
 Das Seitenverhältnis muss zwischen 4:5 (hochkant) und 1,91:1 (quer) liegen,
 sonst lehnt Instagram das Bild ab. Das Skript prüft das vorher.
+
+Deutsche Captions lehnt es ab (tools/sprache.py): @thefke postet nur Englisch,
+deutsche Texte gehören auf @thomas.hefke.
 """
 import argparse
 import json
@@ -21,6 +24,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sprache  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 QUEUE = REPO / 'queue'
@@ -44,6 +50,9 @@ def main():
     caption = Path(a.caption).read_text(encoding='utf-8').strip() if a.caption else a.caption_text.strip()
     if len(caption) > CAPTION_MAX:
         sys.exit(f'Caption hat {len(caption)} Zeichen, Instagram erlaubt {CAPTION_MAX}')
+    m = sprache.meldung(a.caption or 'Caption', caption)
+    if m:
+        sys.exit(f'ABBRUCH {m}')
 
     img = Image.open(a.image).convert('RGB')
     ratio = img.width / img.height

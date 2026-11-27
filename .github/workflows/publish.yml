@@ -67,3 +67,20 @@ jobs:
             echo "::error::Push nach dem Posten gescheitert. queue/ von Hand bereinigen, sonst wird doppelt gepostet."
             exit 1
           fi
+
+      # Hält plan/index.json aktuell (Feld slot, auto_posted), damit /studio/posts/ zeigt, was automatisch läuft.
+      # Eigener Schritt nach dem Commit oben: Scheitert er, ist der Beitrag trotzdem sicher in posted/.
+      - name: plan/index.json aktualisieren
+        continue-on-error: true
+        run: |
+          for i in 1 2 3; do
+            git pull --rebase -q origin main || { git rebase --abort; sleep 10; continue; }
+            python3 tools/plan_index.py
+            git add plan/index.json
+            if git diff --cached --quiet; then echo "index.json unverändert"; exit 0; fi
+            git commit -q -m "plan/index.json: Stand nach Publish"
+            git push && exit 0
+            git reset -q --hard origin/main
+            sleep $((i * 10))
+          done
+          echo "::warning::plan/index.json nicht aktualisiert. Von Hand: python3 tools/plan_index.py"

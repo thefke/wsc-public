@@ -1,6 +1,6 @@
 # Sa 28.11. · Liked Extreme Ownership? Read these next
 
-Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
+Karussell, 8 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

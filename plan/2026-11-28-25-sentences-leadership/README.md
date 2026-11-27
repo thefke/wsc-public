@@ -1,6 +1,6 @@
 # Sa 28.11. · 25 Sentences Your Boss Should Read
 
-Karussell, 7 Slides. Beim Hochladen 4:5 wählen.
+Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 7 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

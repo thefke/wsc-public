@@ -1,6 +1,6 @@
 # Di 01.12. · Reading Ladders, Part 3
 
-Karussell, 10 Slides. Beim Hochladen 4:5 wählen.
+Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 10 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

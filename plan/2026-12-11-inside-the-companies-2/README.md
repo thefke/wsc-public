@@ -1,6 +1,6 @@
 # Fr 11.12. · How They Really Work: 20 More Companies
 
-Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
 
 ## Caption
 

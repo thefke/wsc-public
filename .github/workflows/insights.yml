@@ -1,0 +1,47 @@
+# Wochenbericht: schreibt plan/insights.json mit Reichweite und neuen Followern je Post und je
+# Themenmuster (Thomas, 26.11.2026). Die Seite /studio/ auf why-so-curious.com liest die Datei.
+# Skript und Regeln: tools/insights.py, Muster je Post: plan/muster.json.
+#
+# Braucht das Secret META_TOKEN mit dem Recht instagram_manage_insights. Fehlt das Recht, endet
+# der Lauf mit einem Hinweis, die Datei bleibt auf dem letzten Stand.
+name: Insights
+
+on:
+  schedule:
+    - cron: '17 5 * * 1'   # montags 05:17 UTC, der Zeitplan von GitHub kann sich um Stunden verschieben
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: insights
+  cancel-in-progress: false
+
+jobs:
+  insights:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Zahlen holen
+        env:
+          META_TOKEN: ${{ secrets.META_TOKEN }}
+        run: |
+          if [ -z "$META_TOKEN" ]; then
+            echo "Secret META_TOKEN fehlt, nichts zu tun." | tee -a "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          python3 tools/insights.py | tee -a "$GITHUB_STEP_SUMMARY"
+          test "${PIPESTATUS[0]}" -eq 0
+
+      - name: Committen
+        run: |
+          git config user.name "wsc-insights"
+          git config user.email "actions@users.noreply.github.com"
+          git add plan/insights.json
+          git diff --cached --quiet && exit 0
+          git commit -m "insights: Stand $(date -u +%F)"
+          for i in 1 2 3 4 5; do git pull --rebase -q origin main && git push origin HEAD:main && exit 0; sleep $((i * 10)); done
+          exit 1

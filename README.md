@@ -34,6 +34,15 @@ Secrets unter Settings, Secrets and variables, Actions:
 
 Test ohne Risiko: Actions, `Publish`, „Run workflow“ mit Modus `pruefen`. Das baut den nächsten Beitrag bei Instagram als Container, ohne ihn zu veröffentlichen.
 
+## Wochenbericht: was Reichweite und Follower bringt
+
+`plan/insights.json` zeigt je Post Reichweite, Views, Saves, Shares und neue Follower, dazu die Auswertung je Themenmuster, Früh-Slot gegen von Hand und je Kalenderwoche (`tools/insights.py`, seit 26.11.2026). Die Seite `/studio/` auf why-so-curious.com liest sie.
+
+- Der Workflow `Insights` schreibt sie montags früh neu, von Hand über „Run workflow“. Das Secret `META_TOKEN` braucht dafür das Recht `instagram_manage_insights`.
+- Welcher Post zu welchem Muster gehört, steht in `plan/muster.json`. Neue Slugs dort eintragen, sonst zählen sie als „offen“. Teile einer Reihe (`-2`, `-3`) zählen automatisch zur Reihe.
+- Gezählt werden nur Feed-Posts ab drei Tagen Alter. Reels liefern bei Instagram keine Follower-Zahl.
+- Die Zahlen sind öffentlich, weil das Repo öffentlich ist (Entscheidung Thomas, 26.11.2026).
+
 ## Live-Liste für die Bio-Link-Seite
 
 `plan/live.json` sagt, welche Plan-Posts auf @thefke wirklich live sind, mit Zeitpunkt und Link (`tools/live.py`). Die Seite `/en/ig/` auf why-so-curious.com liest sie, damit dort steht, was auf Instagram zu sehen ist, auch wenn vom Plandatum abweichend gepostet wird.

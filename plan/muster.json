@@ -35,7 +35,6 @@
   "first-time-boss": "zahlenliste",
   "money-school-never-taught": "zahlenliste",
   "january-excuses": "zahlenliste",
-
   "advice-sounds-smart": "kontra",
   "advice-that-sounds-smart": "kontra",
   "ai-wont-take": "kontra",
@@ -50,7 +49,6 @@
   "sound-boring-arent": "kontra",
   "truths-that-hurt": "kontra",
   "two-answers": "kontra",
-
   "athlete-minds": "insider",
   "companies-handled-failure": "insider",
   "inside-the-companies": "insider",
@@ -59,7 +57,6 @@
   "science-like-novels": "insider",
   "sports-books-about-work": "insider",
   "three-books-one-psychologist": "insider",
-
   "10-books-10-words": "methode",
   "25-sentences-courage": "methode",
   "25-sentences-leadership": "methode",
@@ -74,7 +71,6 @@
   "reading-plan-2027": "methode",
   "reading-system": "methode",
   "recommend-to-everyone": "methode",
-
   "ambitious-people": "lebenslage",
   "back-from-leave": "lebenslage",
   "before-you-start-a-company": "lebenslage",
@@ -106,7 +102,6 @@
   "turning-30": "lebenslage",
   "turning-40": "lebenslage",
   "which-ai-course": "lebenslage",
-
   "10-bad-days": "gefuehl",
   "3am-worries": "gefuehl",
   "after-a-hard-stretch": "gefuehl",
@@ -125,11 +120,9 @@
   "sunday-no-plans": "gefuehl",
   "ten-hour-flight": "gefuehl",
   "time-scarcest-asset": "gefuehl",
-
   "follow-the-line": "mitmach",
   "guess-shoe-dog": "mitmach",
   "one-perfect-post": "mitmach",
-
   "christmas-family": "saison",
   "end-of-year-reflection": "saison",
   "first-week-of-january": "saison",
@@ -137,7 +130,7 @@
   "gift-guide": "saison",
   "gift-has-everything": "saison",
   "gift-last-minute": "saison",
-
-  "confession": "reel"
+  "confession": "reel",
+  "fast-decisions": "lebenslage"
  }
 }

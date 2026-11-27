@@ -11,6 +11,7 @@ Das Repo ist öffentlich, weil Instagram die Bilder über eine öffentliche URL 
 - `plan/`: vorbereitete Posts zum Hochladen von Hand, je Tag ein Ordner mit Bildern und `caption.txt`. Wird nie automatisch gepostet. Nach jeder Änderung `python3 tools/plan_index.py` laufen lassen, das schreibt `plan/index.json` für die Seite `why-so-curious.com/studio/posts/`.
 - Captions mit Büchern enden ab 17.11.2026 vor den Hashtags mit „Books from this post: link in bio.“ Der Bio-Link geht auf `why-so-curious.com/en/ig/`, dort stehen die Bücher jedes Posts. `plan_insert.py` setzt die Zeile selbst, Posts ohne Bücher bekommen `"bio": false`.
 - Workflow `Publish`: läuft stündlich, postet den nächsten fälligen Beitrag und verschiebt ihn nach `posted/`. Höchstens ein Post pro Lauf.
+- Sprachsperre (seit 27.11.2026): @thefke postet nur Englisch, deutsche Texte gehören auf @thomas.hefke. `tools/sprache.py` erkennt deutsche Captions ohne Pakete (Funktionswörter und Umlaute gegen englische, Hashtags und Text in Anführungszeichen zählen nicht, damit deutsche Buchtitel und Zitate eine englische Caption nicht kippen). `publish.py` bricht vor jeder Anfrage an Instagram ab, `queue_plan.py`, `enqueue.py`, `plan_insert.py` und `plan_add.py` nehmen eine deutsche Caption nicht an. Ganzen Bestand prüfen: `python3 tools/sprache.py`, Tests: `python3 tools/test_sprache.py`.
 - Workflow `Refresh Token`: erneuert den Instagram-Token am 1. und 15. des Monats.
 
 ## Beitrag anlegen

@@ -16,7 +16,8 @@ ohne Musik, mittags und abends von Hand mit Musik.
 
 Prüft vor dem Anlegen: Slides vorhanden, höchstens 20, JPEG, Seitenverhältnis
 zwischen 4:5 und 1,91:1, Caption höchstens 2.200 Zeichen und 30 Hashtags,
-Ordner noch nicht in queue/ oder posted/.
+Ordner noch nicht in queue/ oder posted/, Caption englisch (tools/sprache.py,
+deutsche Texte gehören auf @thomas.hefke).
 """
 import json
 import re
@@ -26,6 +27,9 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 from PIL import Image
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import sprache  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent
 PLAN, QUEUE, POSTED = REPO / 'plan', REPO / 'queue', REPO / 'posted'
@@ -62,6 +66,9 @@ def pruefen(ordner: Path) -> tuple[list[str], str]:
         raise ValueError(f'{ordner.name}: Caption {len(cap)} Zeichen')
     if len(re.findall(r'(?<!\w)#\w+', cap)) > TAGS_MAX:
         raise ValueError(f'{ordner.name}: mehr als {TAGS_MAX} Hashtags')
+    m = sprache.meldung(f'plan/{ordner.name}/caption.txt', cap)
+    if m:
+        raise ValueError(m)
     return [s.relative_to(REPO).as_posix() for s in slides], cap
 
 

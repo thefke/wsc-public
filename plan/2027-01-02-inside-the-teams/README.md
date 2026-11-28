@@ -1,0 +1,38 @@
+# Sa 02.01. · 10 teams: 5 that worked, 5 that broke
+
+Früh-Slot, wird automatisch gepostet (ohne Musik). Nicht von Hand posten. Karussell, 4 Slides. Beim Hochladen 4:5 wählen.
+
+## Caption
+
+```
+“We have a great team culture.”
+Here is what 10 teams actually did.
+
+5 that worked.
+NASA rehearsed disasters for full days at a time.
+Google Maps started with zero direction and unlimited resources.
+
+5 that broke.
+At Theranos, teams were kept apart on purpose.
+At WeWork, brokers got 100 percent of a tenant's first-year rent.
+
+Robert Kurson in Rocket Men, on the Apollo simulator:
+“More than once the astronauts perished because someone didn’t fix problems correctly or in time. In those cases, the crew and controllers held a short briefing afterward, discussed how they’d failed and what could be improved, then tried again.”
+
+10 teams. 10 books from my shelf.
+
+Send this to the friend who keeps saying their team is different.
+
+Which team would you join?
+
+Books from this post: link in bio.
+
+#bookstagram #bookrecommendations #books
+```
+
+## Slides
+
+![01.jpg](01.jpg)
+![02.jpg](02.jpg)
+![03.jpg](03.jpg)
+![04.jpg](04.jpg)

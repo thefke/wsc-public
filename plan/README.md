@@ -130,55 +130,81 @@ Ein Post pro Tag. Jeder Ordner enthält die Bilder in Reihenfolge und `caption.t
 | So 13.12. | [10 Books in 10 Words, Part 3](2026-12-13-10-books-10-words-3/) | Karussell |
 | So 13.12. | [Learn from the Greatest: Coaches](2026-12-13-greatest-coaches/) | Karussell, abends |
 | So 13.12. | [Books that teach you to sell without being salesy](2026-12-13-sell-without-salesy/) | Karussell, früh, automatisch |
+| Mo 14.12. | [20 Negotiation Problems, 20 Books](2026-12-14-20-negotiation-problems/) | Karussell, früh, automatisch |
 | Mo 14.12. | [Books for people who think they're bad with numbers](2026-12-14-bad-with-numbers/) | Karussell, abends |
 | Mo 14.12. | [10 companies. How they handled failure](2026-12-14-companies-handled-failure/) | Karussell |
+| Di 15.12. | [“Psychology is just common sense.” Seven books that disagree](2026-12-15-psychology-common-sense/) | Karussell, früh, automatisch |
 | Di 15.12. | [Biographies that read like thrillers, Part 2](2026-12-15-read-like-thrillers-2/) | Karussell, abends |
 | Di 15.12. | [Reading Ladders, Part 4](2026-12-15-reading-ladders-4/) | Karussell |
 | Mi 16.12. | [20 Focus Problems, 20 Books](2026-12-16-20-focus-problems/) | Karussell |
+| Mi 16.12. | [Inside the AI labs: 7 stories, 7 books](2026-12-16-inside-the-ai-labs/) | Karussell, früh, automatisch |
 | Mi 16.12. | [One idea worth the whole book, Part 2](2026-12-16-one-idea-whole-book-2/) | Karussell, abends |
 | Do 17.12. | [50 Things School Never Taught You, Part 3](2026-12-17-50-things-school-3/) | Karussell |
 | Do 17.12. | [Liked Thinking, Fast and Slow? Read these next](2026-12-17-after-thinking-fast-slow/) | Karussell, abends |
+| Do 17.12. | [“Philosophy is useless.” Seven books that disagree](2026-12-17-philosophy-useless/) | Karussell, früh, automatisch |
+| Fr 18.12. | [20 Writing Problems, 20 Books](2026-12-18-20-writing-problems/) | Karussell, früh, automatisch |
 | Fr 18.12. | [25 Sentences About Work](2026-12-18-25-sentences-work/) | Karussell |
 | Fr 18.12. | [Sports books that are really about work](2026-12-18-sports-books-about-work/) | Karussell, abends |
 | Sa 19.12. | [Last minute: books that look like you planned this](2026-12-19-gift-last-minute/) | Karussell, abends |
+| Sa 19.12. | [How investors really decide: 8 rules](2026-12-19-how-investors-decide/) | Karussell, früh, automatisch |
 | Sa 19.12. | [20 Truths That Hurt, Part 2](2026-12-19-truths-that-hurt-2/) | Karussell |
+| So 20.12. | [20 Stress Problems, 20 Books](2026-12-20-20-stress-problems/) | Karussell, früh, automatisch |
 | So 20.12. | [One Problem for Every Age, Part 2](2026-12-20-one-problem-per-age-2/) | Karussell |
 | Mo 21.12. | [20 Creative Problems, 20 Books](2026-12-21-20-creative-problems/) | Karussell |
+| Mo 21.12. | [“History has nothing to do with my job.” Seven books](2026-12-21-history-and-your-job/) | Karussell, früh, automatisch |
 | Mo 21.12. | [The longest night of the year. Read one of these](2026-12-21-longest-night/) | Karussell, abends |
+| Di 22.12. | [20 Thinking Errors, 20 Books](2026-12-22-20-thinking-errors/) | Karussell, früh, automatisch |
 | Di 22.12. | [Christmas with family? Read one first](2026-12-22-christmas-family/) | Karussell, abends |
 | Di 22.12. | [Learn from the Greatest: Explorers](2026-12-22-greatest-explorers/) | Karussell |
 | Mi 23.12. | [Liked Steve Jobs? Read these next](2026-12-23-after-steve-jobs/) | Karussell |
+| Mi 23.12. | [“Economics is boring.” Seven books that disagree](2026-12-23-economics-boring/) | Karussell, früh, automatisch |
 | Mi 23.12. | [Learn from the Greatest: Basketball](2026-12-23-greatest-basketball/) | Karussell, abends |
 | Do 24.12. | [10 Books in 10 Words, Part 4](2026-12-24-10-books-10-words-4/) | Karussell |
 | Do 24.12. | [Advice that sounds smart. And isn't, Part 2](2026-12-24-advice-sounds-smart-2/) | Karussell, abends |
+| Do 24.12. | [“That will never work.” 10 companies did it anyway](2026-12-24-that-will-never-work/) | Karussell, früh, automatisch |
+| Fr 25.12. | [12 Career Lies You Believe](2026-12-25-12-career-lies/) | Karussell, früh, automatisch |
 | Fr 25.12. | [25 Sentences About Courage](2026-12-25-25-sentences-courage/) | Karussell |
 | Fr 25.12. | [Business books that are secretly about life](2026-12-25-business-books-about-life/) | Karussell, abends |
 | Sa 26.12. | [20 Health Problems, 20 Books](2026-12-26-20-health-problems/) | Karussell |
 | Sa 26.12. | [Got a gift card? Buy the classics everyone quotes](2026-12-26-gift-card-classics/) | Karussell, abends |
+| Sa 26.12. | [“Memoirs are just bragging.” Read these seven](2026-12-26-memoirs-bragging/) | Karussell, früh, automatisch |
 | So 27.12. | [50 Sentences, 50 Books, Part 4](2026-12-27-50-sentences-4/) | Karussell |
+| So 27.12. | [Inside the lab: 7 scientists](2026-12-27-inside-the-lab/) | Karussell, früh, automatisch |
 | So 27.12. | [Books for the quiet days between Christmas and New Year](2026-12-27-quiet-days/) | Karussell, abends |
 | Mo 28.12. | [40 Lessons Before 40](2026-12-28-40-lessons-before-40/) | Karussell |
 | Mo 28.12. | [Liked Can't Hurt Me? Read these next](2026-12-28-after-cant-hurt-me/) | Karussell, abends |
+| Mo 28.12. | [“Marketing is just manipulation.” Seven books that disagree](2026-12-28-marketing-manipulation/) | Karussell, früh, automatisch |
+| Di 29.12. | [20 Team Problems, 20 Books](2026-12-29-20-team-problems/) | Karussell, früh, automatisch |
 | Di 29.12. | [Afraid to Ask? 20 Questions, Part 2](2026-12-29-afraid-to-ask-2/) | Karussell |
 | Di 29.12. | [Books that changed how I think, Part 2](2026-12-29-changed-how-i-think-2/) | Karussell, abends |
+| Mi 30.12. | [20 CEOs. One rule each](2026-12-30-ceo-rules/) | Karussell, früh, automatisch |
 | Mi 30.12. | [Old books that are still right, Part 2](2026-12-30-old-ideas-still-right-2/) | Karussell, abends |
 | Mi 30.12. | [Your 2027 Reading Plan](2026-12-30-reading-plan-2027/) | Karussell |
+| Do 31.12. | [20 Habit Problems, 20 Books](2026-12-31-20-habit-problems/) | Karussell, früh, automatisch |
 | Do 31.12. | [The last days of the year. Look back first](2026-12-31-end-of-year-reflection/) | Karussell |
 | Do 31.12. | [Learn from the Greatest: Endurance](2026-12-31-greatest-endurance/) | Karussell, abends |
 | Fr 01.01. | [The first week of January. Start here](2027-01-01-first-week-of-january/) | Karussell |
+| Fr 01.01. | [“Leadership books all say the same thing.” Seven that don't](2027-01-01-leadership-books-same/) | Karussell, früh, automatisch |
 | Fr 01.01. | [Train your mind like your body](2027-01-01-train-your-mind/) | Karussell, abends |
 | Sa 02.01. | [First day back at work? Read one first](2027-01-02-first-day-back/) | Karussell, abends |
+| Sa 02.01. | [10 teams: 5 that worked, 5 that broke](2027-01-02-inside-the-teams/) | Karussell, früh, automatisch |
 | Sa 02.01. | [January excuses, 20 books](2027-01-02-january-excuses/) | Karussell |
+| So 03.01. | [20 Learning Problems, 20 Books](2027-01-03-20-learning-problems/) | Karussell, früh, automatisch |
 | So 03.01. | [Career reset? 20 Problems, 20 Books](2027-01-03-career-reset/) | Karussell |
 | So 03.01. | [Books for people who hate New Year's resolutions](2027-01-03-hate-resolutions/) | Karussell, abends |
 | Mo 04.01. | [Liked Meditations? Read these next](2027-01-04-after-meditations/) | Karussell, abends |
 | Mo 04.01. | [Forty minutes of nodding](2027-01-04-forty-minutes-of-nodding/) | Karussell |
+| Mo 04.01. | [“That book is way too long.” Seven worth every page](2027-01-04-long-books-worth-it/) | Karussell, früh, automatisch |
+| Di 05.01. | [20 Presentation Problems, 20 Books](2027-01-05-20-presentation-problems/) | Karussell, früh, automatisch |
 | Di 05.01. | [Reading Ladders, Part 5](2027-01-05-reading-ladders-5/) | Karussell |
 | Di 05.01. | [Books that sound boring. They aren't, Part 3](2027-01-05-sound-boring-arent-3/) | Karussell, abends |
 | Mi 06.01. | [107 questions an hour](2027-01-06-107-questions/) | Karussell |
 | Mi 06.01. | [The shelf of a first-time manager](2027-01-06-first-time-manager-shelf/) | Karussell, abends |
+| Mi 06.01. | [Spies. Soldiers. Negotiators. What they know about your job](2027-01-06-spies-soldiers-work/) | Karussell, früh, automatisch |
+| Do 07.01. | [20 Strategy Problems, 20 Books](2027-01-07-20-strategy-problems/) | Karussell, früh, automatisch |
 | Do 07.01. | [How They Really Work: 14 More Companies](2027-01-07-inside-the-companies-3/) | Karussell |
 | Do 07.01. | [Books for people who read one book a year](2027-01-07-one-book-a-year/) | Karussell, abends |
+| Fr 08.01. | [20 Side Project Problems, 20 Books](2027-01-08-20-side-project-problems/) | Karussell, früh, automatisch |
 | Fr 08.01. | [$300 billion to over $3 trillion](2027-01-08-learn-it-all/) | Karussell |
 | Fr 08.01. | [Science books that read like novels](2027-01-08-science-like-novels/) | Karussell, abends |
 
